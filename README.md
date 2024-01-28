@@ -3,7 +3,7 @@
 - 😎 Killem Westside Records ready to cut the check
 
 
--😎 FREE TUCCI😂
+- 😎 FREE TUCCI😂
 
 <!---
 BeadtMODE/BeadtMODE is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
