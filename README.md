@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @BeadtMODE
 
-- 😎 Killem Westside Records ready to cut the check
+- 😎 Killem Westside Records ready to cut the check 🤣
 
 
 - 😎 FREE TUCCI😂
