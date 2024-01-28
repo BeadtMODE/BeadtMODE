@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @BeadtMODE
-- Millard Boswell 
+- Millard Boswell Foundation Fund
 - 😎 Killem Westside Records ready to cut the check 🤣
 
 
