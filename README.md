@@ -1,5 +1,5 @@
 
-- 😎 Killem Westside Records ready to cut the check 🤣
+- 😎 Killem Westside Records ready to cut the check 🤣 https://www.facebook.com/profile.php?id=100092436765128
 
 
 - 😎 FREE TUCCI😂
