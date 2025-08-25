@@ -10,6 +10,8 @@ id = b4d2db78-14ac-4f8d-b9bb-f221712f96cf
 [config.relations.collections]
 rootDirectory = postman/collections
 files[] = {"id":"19151314-f82a7076-09e7-4297-b74e-aefa6326e865","path":"millardb60_api9.gmail.com.json","metaData":{}}
+files[] = {"id":"19151314-5128fa4f-572f-4d53-ba8a-fb2b7b35bf3d","path":"PayPal APIs.json","metaData":{}}
+files[] = {"id":"19151314-f189ff04-8bd7-4e81-ade8-9ecb654bec14","path":"Plaid API Endpoints.json","metaData":{}}
 files[] = {"id":"19151314-731c1c1d-5dfb-461b-a888-a94ffbe498e0","path":"tucci.in@gmail.com.json","metaData":{}}
 
 [config.relations.collections.metaData]
@@ -19,3 +21,4 @@ files[] = {"path":"index.yaml","metaData":{}}
 
 [config.relations.apiDefinition.metaData]
 type = openapi:3
+rootFiles[] = index.yaml
