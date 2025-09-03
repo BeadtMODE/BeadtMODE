@@ -10,13 +10,9 @@ id = b4d2db78-14ac-4f8d-b9bb-f221712f96cf
 [config.relations.collections]
 rootDirectory = postman
 files[] = {"id":"19151314-3058ccd2-11ed-4245-9c06-ff4a31f38840","path":"collections/millardb60_api9.gmail.com.json","metaData":{}}
-files[] = {"id":"19151314-96d67dba-ea59-4d73-b450-4ac16f011f94","path":"collections/PayPal APIs.json","metaData":{}}
 files[] = {"id":"19151314-26e2d8be-e1e1-4984-b163-c2e624f9aab3","path":"collections/Plaid API Endpoints.json","metaData":{}}
 files[] = {"id":"19151314-682061de-ee71-4b1a-8233-d7e0ee8d9bba","path":"collections/tucci.in@gmail.com.json","metaData":{}}
-files[] = {"id":"19151314-f82a7076-09e7-4297-b74e-aefa6326e865","path":"millardb60_api9.gmail.com.json","metaData":{}}
 files[] = {"id":"19151314-a5169840-5306-4a68-bec2-8235d265d6a6","path":"PayPal APIs.json","metaData":{}}
-files[] = {"id":"19151314-19b8527f-856e-49d0-abf8-b6d2501a81d3","path":"Plaid API Endpoints.json","metaData":{}}
-files[] = {"id":"19151314-731c1c1d-5dfb-461b-a888-a94ffbe498e0","path":"tucci.in@gmail.com.json","metaData":{}}
 
 [config.relations.collections.metaData]
 
@@ -25,3 +21,4 @@ files[] = {"path":"index.yaml","metaData":{}}
 
 [config.relations.apiDefinition.metaData]
 type = openapi:3
+rootFiles[] = index.yaml
