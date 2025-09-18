@@ -9,10 +9,11 @@ id = b4d2db78-14ac-4f8d-b9bb-f221712f96cf
 
 [config.relations.collections]
 rootDirectory = postman
-files[] = {"id":"19151314-3058ccd2-11ed-4245-9c06-ff4a31f38840","path":"collections/millardb60_api9.gmail.com.json","metaData":{}}
-files[] = {"id":"19151314-26e2d8be-e1e1-4984-b163-c2e624f9aab3","path":"collections/Plaid API Endpoints.json","metaData":{}}
-files[] = {"id":"19151314-682061de-ee71-4b1a-8233-d7e0ee8d9bba","path":"collections/tucci.in@gmail.com.json","metaData":{}}
-files[] = {"id":"19151314-a5169840-5306-4a68-bec2-8235d265d6a6","path":"PayPal APIs.json","metaData":{}}
+files[] = {"id":"19151314-7a2f2c87-d772-4fc5-b672-a7d3a3e36beb","path":"api-m.sandbox.paypal.com/v1/oauth2/token.json","metaData":{}}
+files[] = {"id":"19151314-5f9e7de2-d08e-4e8f-92b9-b4289e9790e1","path":"collections/millardb60_api9.gmail.com.json","metaData":{}}
+files[] = {"id":"19151314-5a13e8b5-3d87-4686-9d58-fe1656a07292","path":"collections/Plaid API Endpoints.json","metaData":{}}
+files[] = {"id":"19151314-a3460bb2-d562-4e63-9720-ba3364ebcad7","path":"collections/tucci.in@gmail.com.json","metaData":{}}
+files[] = {"id":"19151314-d42581f8-9869-491f-9e44-c5016793dfc5","path":"PayPal APIs.json","metaData":{}}
 
 [config.relations.collections.metaData]
 

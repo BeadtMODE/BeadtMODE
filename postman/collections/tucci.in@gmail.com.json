@@ -1,10 +1,10 @@
 {
 	"info": {
-		"_postman_id": "682061de-ee71-4b1a-8233-d7e0ee8d9bba",
+		"_postman_id": "a3460bb2-d562-4e63-9720-ba3364ebcad7",
 		"name": "tucci.in@gmail.com",
 		"description": "Test Call.\n\n<img src=\"https://content.pstmn.io/37e247e4-8c2f-4c2c-bf7e-c7173a122dc7/MTAwMDAwMjQ5MS5wbmc=\" alt=\"\" height=\"263\" width=\"290\">\n\n|  |  |\n| --- | --- |\n|  |  |",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_uid": "19151314-682061de-ee71-4b1a-8233-d7e0ee8d9bba"
+		"_uid": "19151314-a3460bb2-d562-4e63-9720-ba3364ebcad7"
 	},
 	"item": [
 		{
@@ -13,7 +13,7 @@
 				{
 					"listen": "test",
 					"script": {
-						"id": "9d87a6bd-ed27-459a-9b90-759e8cb7a570",
+						"id": "25f23fa9-eb46-49fb-a25f-857739d9068d",
 						"exec": [
 							"try {",
 							"pm.variables.set(\"variable_key\", \"variable_value\");",
@@ -33,7 +33,7 @@
 					}
 				}
 			],
-			"id": "eee4348d-9bfb-4889-955c-74ca83134d61",
+			"id": "fe24cefa-1ea8-47ab-b7e5-96f3bcf47fc6",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -92,7 +92,7 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "c72c3b0b-21dc-45d3-939a-c2198f8e8661",
+				"id": "5b179a25-8f89-4943-81c6-9da9f5170181",
 				"type": "text/javascript",
 				"packages": {},
 				"exec": [
@@ -103,7 +103,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "96c9ec9a-c4a0-4fd1-b351-610596d23247",
+				"id": "1546338d-b51e-4355-887e-bf23cfd7070a",
 				"type": "text/javascript",
 				"packages": {},
 				"exec": [
@@ -125,10 +125,9 @@
 	],
 	"variable": [
 		{
-			"id": "2321c0cd-3c11-4789-8423-55f01557632e",
+			"id": "24b10b3e-1ea7-4268-8a48-7dbd9aa4e5e0",
 			"key": "variable_key",
-			"value": "",
-			"type": "string"
+			"value": ""
 		}
 	]
 }
