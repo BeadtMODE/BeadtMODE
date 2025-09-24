@@ -1,10 +1,10 @@
 {
 	"info": {
-		"_postman_id": "a3460bb2-d562-4e63-9720-ba3364ebcad7",
-		"name": "tucci.in@gmail.com",
-		"description": "Test Call.\n\n<img src=\"https://content.pstmn.io/37e247e4-8c2f-4c2c-bf7e-c7173a122dc7/MTAwMDAwMjQ5MS5wbmc=\" alt=\"\" height=\"263\" width=\"290\">\n\n|  |  |\n| --- | --- |\n|  |  |",
+		"_postman_id": "64bcaf24-f6c0-4de6-80bb-293f0e3821a5",
+		"name": "boswellmillard9@gmail.com",
+		"description": "Test Call\n\n<img src=\"https://content.pstmn.io/0d7cc685-fc60-4a20-a322-c2b0ee0ddf5b/MTAwMDAwMjY5NC5qcGc=\" alt=\"\">",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_uid": "19151314-a3460bb2-d562-4e63-9720-ba3364ebcad7"
+		"_uid": "19151314-64bcaf24-f6c0-4de6-80bb-293f0e3821a5"
 	},
 	"item": [
 		{
@@ -13,7 +13,7 @@
 				{
 					"listen": "test",
 					"script": {
-						"id": "25f23fa9-eb46-49fb-a25f-857739d9068d",
+						"id": "0e99a890-0fe3-47e1-ad73-3cd65c5ce216",
 						"exec": [
 							"try {",
 							"pm.variables.set(\"variable_key\", \"variable_value\");",
@@ -23,17 +23,17 @@
 							"    });",
 							"",
 							"    console.log(response.json());",
+							"pm.variables.get(\"variable_key\");",
 							"} catch (err) {",
 							"    console.error(err);",
-							"}",
-							"pm.variables.get(\"variable_key\");"
+							"}"
 						],
 						"type": "text/javascript",
 						"packages": {}
 					}
 				}
 			],
-			"id": "fe24cefa-1ea8-47ab-b7e5-96f3bcf47fc6",
+			"id": "c08fe9d6-2c75-4229-83ea-bceaf861309c",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -47,16 +47,16 @@
 					"mode": "urlencoded",
 					"urlencoded": [
 						{
-							"key": "locale.x",
-							"value": "en_US",
-							"type": "text",
-							"uuid": "b0ef18f8-96d5-47b5-a7db-92e69cb37a90"
-						},
-						{
 							"key": "country.x",
 							"value": "US",
 							"type": "text",
-							"uuid": "d67844cd-d20e-4a86-83f8-c702f4a4273f"
+							"uuid": "1bdcc4f3-c181-4125-8972-f85df0003995"
+						},
+						{
+							"key": "locale.x",
+							"value": "en_US",
+							"type": "text",
+							"uuid": "4211e6be-a842-4cf0-ab98-7877f94ff3b8"
 						}
 					]
 				},
@@ -92,7 +92,7 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "5b179a25-8f89-4943-81c6-9da9f5170181",
+				"id": "aba03833-0862-4b84-8f5f-88ad590874a8",
 				"type": "text/javascript",
 				"packages": {},
 				"exec": [
@@ -103,12 +103,11 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "1546338d-b51e-4355-887e-bf23cfd7070a",
+				"id": "4d9309f1-89f4-4ab4-8fa6-6b19580de54c",
 				"type": "text/javascript",
 				"packages": {},
 				"exec": [
 					"try {",
-					"pm.variables.get(\"variable_key\");",
 					"    const response = await pm.sendRequest({",
 					"        url: \"https://postman-echo.com/get\",",
 					"        method: \"GET\"",
@@ -118,6 +117,7 @@
 					"} catch (err) {",
 					"    console.error(err);",
 					"}",
+					"pm.variables.get(\"variable_key\");",
 					"pm.variables.set(\"variable_key\", \"variable_value\");"
 				]
 			}
@@ -125,7 +125,7 @@
 	],
 	"variable": [
 		{
-			"id": "24b10b3e-1ea7-4268-8a48-7dbd9aa4e5e0",
+			"id": "c8114a39-c011-4434-8e2c-26c9964d0a04",
 			"key": "variable_key",
 			"value": ""
 		}

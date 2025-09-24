@@ -9,11 +9,15 @@ id = b4d2db78-14ac-4f8d-b9bb-f221712f96cf
 
 [config.relations.collections]
 rootDirectory = postman
-files[] = {"id":"19151314-7a2f2c87-d772-4fc5-b672-a7d3a3e36beb","path":"api-m.sandbox.paypal.com/v1/oauth2/token.json","metaData":{}}
-files[] = {"id":"19151314-5f9e7de2-d08e-4e8f-92b9-b4289e9790e1","path":"collections/millardb60_api9.gmail.com.json","metaData":{}}
+files[] = {"id":"19151314-72a5d6d5-3a24-4bcc-948f-b163a481e0da","path":"api-m.sandbox.paypal.com/v1/oauth2/token.json","metaData":{}}
+files[] = {"id":"19151314-64bcaf24-f6c0-4de6-80bb-293f0e3821a5","path":"boswellmillard9@gmail.com.json","metaData":{}}
 files[] = {"id":"19151314-5a13e8b5-3d87-4686-9d58-fe1656a07292","path":"collections/Plaid API Endpoints.json","metaData":{}}
-files[] = {"id":"19151314-a3460bb2-d562-4e63-9720-ba3364ebcad7","path":"collections/tucci.in@gmail.com.json","metaData":{}}
+files[] = {"id":"19151314-9303e153-833d-4c05-b6ef-9ed48449214b","path":"kwr-1@paypal.com.json","metaData":{}}
+files[] = {"id":"19151314-5187bd0c-b77e-4847-bb17-248fd3bbb2e3","path":"millardb60_api9.gmail.com.json","metaData":{}}
 files[] = {"id":"19151314-d42581f8-9869-491f-9e44-c5016793dfc5","path":"PayPal APIs.json","metaData":{}}
+files[] = {"id":"19151314-7c8623cb-5c44-4ef4-acde-ffb1c49f0b56","path":"paypal@killemwestsiderecords.godaddysites.com.json","metaData":{}}
+files[] = {"id":"19151314-46737406-9a9a-49b6-a4b3-214b9e440bde","path":"SB-1@paypal.com.json","metaData":{}}
+files[] = {"id":"19151314-f4e89afe-8a39-4e16-afd6-389f98139333","path":"tucci.in@gmail.com.json","metaData":{}}
 
 [config.relations.collections.metaData]
 
@@ -22,4 +26,3 @@ files[] = {"path":"index.yaml","metaData":{}}
 
 [config.relations.apiDefinition.metaData]
 type = openapi:3
-rootFiles[] = index.yaml

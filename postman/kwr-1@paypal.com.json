@@ -1,10 +1,10 @@
 {
 	"info": {
-		"_postman_id": "5f9e7de2-d08e-4e8f-92b9-b4289e9790e1",
-		"name": "millardb60_api9.gmail.com",
-		"description": "Test Call.\n\n<img src=\"https://content.pstmn.io/1619e578-1b93-4c22-b764-155e7396cc3e/MTAwMDAwMjQ5MS5wbmc=\" alt=\"\" height=\"368\" width=\"406\">",
+		"_postman_id": "9303e153-833d-4c05-b6ef-9ed48449214b",
+		"name": "kwr-1@paypal.com",
+		"description": "<img src=\"https://content.pstmn.io/065ff3a1-0a76-43c0-b7af-83a83c1f9add/MTAwMDAwMjY5NC5qcGc=\" alt=\"\" height=\"1074\" width=\"466\">",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_uid": "19151314-5f9e7de2-d08e-4e8f-92b9-b4289e9790e1"
+		"_uid": "19151314-9303e153-833d-4c05-b6ef-9ed48449214b"
 	},
 	"item": [
 		{
@@ -13,17 +13,17 @@
 				{
 					"listen": "test",
 					"script": {
-						"id": "8ac50212-ba53-49fd-b0cd-0d178e0e3572",
+						"id": "af86e349-9d13-41e7-ab9c-6e1224fc70d0",
 						"exec": [
-							"pm.variables.set(\"variable_key\", \"variable_value\");",
 							"try {",
 							"    const response = await pm.sendRequest({",
-							"    url: \"https://postman-echo.com/get\",",
-							"    method: \"GET\"",
+							"        url: \"https://postman-echo.com/get\",",
+							"        method: \"GET\"",
 							"    });",
 							"",
 							"    console.log(response.json());",
 							"} catch (err) {",
+							"    pm.variables.set(\"variable_key\", \"variable_value\");",
 							"    console.error(err);",
 							"}",
 							"pm.variables.get(\"variable_key\");"
@@ -33,7 +33,7 @@
 					}
 				}
 			],
-			"id": "43db86e6-541b-4ccc-9d94-42acd733d7e1",
+			"id": "2460c5be-cae0-4e04-84a9-7f2e693f511f",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -50,13 +50,13 @@
 							"key": "country.x",
 							"value": "US",
 							"type": "text",
-							"uuid": "c8557503-7fd9-4412-9479-f06b517428e6"
+							"uuid": "f3fddca5-d300-4590-bcce-1e6b7b5a668d"
 						},
 						{
 							"key": "locale.x",
 							"value": "en_US",
 							"type": "text",
-							"uuid": "fa680392-ffaa-409f-8db8-652d929fd68e"
+							"uuid": "14ca9f36-6eca-4b60-8400-408901acf029"
 						}
 					]
 				},
@@ -92,7 +92,7 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "7b8b3afa-0fff-4c18-b2f4-5a20b728582a",
+				"id": "60c1c8dc-966c-4a1b-b601-6a89d979ed7b",
 				"type": "text/javascript",
 				"packages": {},
 				"exec": [
@@ -103,7 +103,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "f5f95d79-2041-43dd-9d4c-f882fa179477",
+				"id": "0202cdb1-77a6-4bd9-b18c-6abf78113106",
 				"type": "text/javascript",
 				"packages": {},
 				"exec": [
@@ -117,15 +117,15 @@
 					"} catch (err) {",
 					"    console.error(err);",
 					"}",
-					"pm.variables.set(\"variable_key\", \"variable_value\");",
-					"pm.variables.get(\"variable_key\");"
+					"pm.variables.get(\"variable_key\");",
+					"pm.variables.set(\"variable_key\", \"variable_value\");"
 				]
 			}
 		}
 	],
 	"variable": [
 		{
-			"id": "58b9a127-69de-4ae6-a37f-7e5de6c89cf1",
+			"id": "ad3cef4b-027b-479f-84e1-0e8f662f92f8",
 			"key": "variable_key",
 			"value": ""
 		}
