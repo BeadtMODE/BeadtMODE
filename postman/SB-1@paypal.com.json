@@ -1,10 +1,10 @@
 {
 	"info": {
-		"_postman_id": "46737406-9a9a-49b6-a4b3-214b9e440bde",
+		"_postman_id": "df01bb7b-c2d3-4217-b4f6-4a7455b76c33",
 		"name": "SB-1@paypal.com",
 		"description": "Test Call\n\n<img src=\"https://content.pstmn.io/c5ca3b3e-efbf-4328-ad44-98ebe214d4ca/MTAwMDAwMjY5NC5qcGc=\" alt=\"\">",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_uid": "19151314-46737406-9a9a-49b6-a4b3-214b9e440bde"
+		"_uid": "19151314-df01bb7b-c2d3-4217-b4f6-4a7455b76c33"
 	},
 	"item": [
 		{
@@ -13,7 +13,7 @@
 				{
 					"listen": "test",
 					"script": {
-						"id": "1a88f6c5-367e-40a8-ac6e-18ea991bbf2c",
+						"id": "87ff6955-f417-4d16-a46c-4368f513dd5b",
 						"exec": [
 							"try {",
 							"    const response = await pm.sendRequest({",
@@ -29,11 +29,12 @@
 							"pm.variables.get(\"variable_key\");"
 						],
 						"type": "text/javascript",
-						"packages": {}
+						"packages": {},
+						"requests": {}
 					}
 				}
 			],
-			"id": "e2d71ac7-2941-4754-8790-aaad98335edf",
+			"id": "812019aa-e38a-4dbc-8ea0-bd295b56b80e",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -92,7 +93,7 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "f135a817-d256-43dd-9bc6-79bd8984c30a",
+				"id": "e7be03f7-9ad6-49aa-a839-fbe8dd13b587",
 				"type": "text/javascript",
 				"packages": {},
 				"exec": [
@@ -103,7 +104,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "233ede5d-1592-4e2b-820d-aad67be3e519",
+				"id": "3741f19c-a33a-47ee-a5f6-1b1db0dd173c",
 				"type": "text/javascript",
 				"packages": {},
 				"exec": [
@@ -125,7 +126,7 @@
 	],
 	"variable": [
 		{
-			"id": "39182bb4-8850-4c58-86bd-f4b9077b9ad4",
+			"id": "3dbbb451-6111-4a07-ac81-ec833fcd3222",
 			"key": "variable_key",
 			"value": ""
 		}

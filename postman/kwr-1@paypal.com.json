@@ -1,10 +1,10 @@
 {
 	"info": {
-		"_postman_id": "9303e153-833d-4c05-b6ef-9ed48449214b",
+		"_postman_id": "0b8ace3e-9e3d-4884-aa4f-c6f7097099d8",
 		"name": "kwr-1@paypal.com",
 		"description": "<img src=\"https://content.pstmn.io/065ff3a1-0a76-43c0-b7af-83a83c1f9add/MTAwMDAwMjY5NC5qcGc=\" alt=\"\" height=\"1074\" width=\"466\">",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_uid": "19151314-9303e153-833d-4c05-b6ef-9ed48449214b"
+		"_uid": "19151314-0b8ace3e-9e3d-4884-aa4f-c6f7097099d8"
 	},
 	"item": [
 		{
@@ -13,7 +13,7 @@
 				{
 					"listen": "test",
 					"script": {
-						"id": "af86e349-9d13-41e7-ab9c-6e1224fc70d0",
+						"id": "9abaf79b-15e7-4145-99b4-3f99a4fd3f4a",
 						"exec": [
 							"try {",
 							"    const response = await pm.sendRequest({",
@@ -29,11 +29,12 @@
 							"pm.variables.get(\"variable_key\");"
 						],
 						"type": "text/javascript",
-						"packages": {}
+						"packages": {},
+						"requests": {}
 					}
 				}
 			],
-			"id": "2460c5be-cae0-4e04-84a9-7f2e693f511f",
+			"id": "fd22fcf0-9be9-43a5-95cb-249f0c6b6980",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -92,7 +93,7 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "60c1c8dc-966c-4a1b-b601-6a89d979ed7b",
+				"id": "e8d7db9e-6827-4683-98bd-b33179db2581",
 				"type": "text/javascript",
 				"packages": {},
 				"exec": [
@@ -103,7 +104,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "0202cdb1-77a6-4bd9-b18c-6abf78113106",
+				"id": "e4f7566a-ae29-4b68-a538-fcf521058def",
 				"type": "text/javascript",
 				"packages": {},
 				"exec": [
@@ -125,7 +126,7 @@
 	],
 	"variable": [
 		{
-			"id": "ad3cef4b-027b-479f-84e1-0e8f662f92f8",
+			"id": "719dfc29-b607-4e9d-93bf-4469d9d1df11",
 			"key": "variable_key",
 			"value": ""
 		}

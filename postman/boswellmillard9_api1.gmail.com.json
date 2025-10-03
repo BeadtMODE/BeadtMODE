@@ -1,39 +1,39 @@
 {
 	"info": {
-		"_postman_id": "72a5d6d5-3a24-4bcc-948f-b163a481e0da",
-		"name": "api-m.sandbox.paypal.com/v1/oauth2/token",
-		"description": "Test Call.\n\n<img src=\"https://content.pstmn.io/871b0c42-ae42-49a4-bdfb-4465c3320b6b/MTAwMDAwMjY5NC5qcGc=\" alt=\"\">",
+		"_postman_id": "c42e8044-1258-41c8-8846-c92a21659c5f",
+		"name": "boswellmillard9_api1.gmail.com",
+		"description": "Test Call\n\n<img src=\"https://content.pstmn.io/0d7cc685-fc60-4a20-a322-c2b0ee0ddf5b/MTAwMDAwMjY5NC5qcGc=\" alt=\"\">",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_uid": "19151314-72a5d6d5-3a24-4bcc-948f-b163a481e0da"
+		"_uid": "19151314-c42e8044-1258-41c8-8846-c92a21659c5f"
 	},
 	"item": [
 		{
-			"name": "access_token$production$wpw3gn5kmywp5frc$03880228e02733bef25b935db795db46New Request",
+			"name": "access_token$production$wpw3gn5kmywp5frc$03880228e02733bef25b935db795db46",
 			"event": [
 				{
 					"listen": "test",
 					"script": {
-						"id": "12a46321-14ec-44cf-86d2-582865af661e",
+						"id": "122f811c-7f7f-4e00-891e-59938cd4a572",
 						"exec": [
-							"pm.variables.set(\"variable_key\", \"variable_value\");",
 							"try {",
+							"pm.variables.set(\"variable_key\", \"variable_value\");",
 							"    const response = await pm.sendRequest({",
 							"        url: \"https://postman-echo.com/get\",",
 							"        method: \"GET\"",
 							"    });",
 							"",
 							"    console.log(response.json());",
+							"pm.variables.get(\"variable_key\");",
 							"} catch (err) {",
 							"    console.error(err);",
-							"}",
-							"pm.variables.get(\"variable_key\");"
+							"}"
 						],
 						"type": "text/javascript",
 						"packages": {}
 					}
 				}
 			],
-			"id": "793beaff-02fb-4d02-a4fe-298350f70185",
+			"id": "e3720836-9eff-4a14-9f15-7a8cfe4aa44b",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -47,16 +47,16 @@
 					"mode": "urlencoded",
 					"urlencoded": [
 						{
-							"key": "locale.x",
-							"value": "en_US",
-							"type": "text",
-							"uuid": "2de5eda3-4c01-4e24-83b1-a11a6d22753e"
-						},
-						{
 							"key": "country.x",
 							"value": "US",
 							"type": "text",
-							"uuid": "2e4b8eb5-fb12-42f7-b7d1-2dd375dde16a"
+							"uuid": "1bdcc4f3-c181-4125-8972-f85df0003995"
+						},
+						{
+							"key": "locale.x",
+							"value": "en_US",
+							"type": "text",
+							"uuid": "4211e6be-a842-4cf0-ab98-7877f94ff3b8"
 						}
 					]
 				},
@@ -92,7 +92,7 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "eb5d9c89-1646-4e8d-ab15-48844740a9b1",
+				"id": "dcca5ce5-6a1b-403b-a918-28b5970a1488",
 				"type": "text/javascript",
 				"packages": {},
 				"exec": [
@@ -103,12 +103,10 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "fcfd6546-48ac-4df0-affd-a5e97948935a",
+				"id": "813fe4fa-44d4-4321-be89-186b16b73948",
 				"type": "text/javascript",
 				"packages": {},
 				"exec": [
-					"pm.variables.set(\"variable_key\", \"variable_value\");",
-					"pm.variables.set(\"variable_key\", \"variable_value\");",
 					"try {",
 					"    const response = await pm.sendRequest({",
 					"        url: \"https://postman-echo.com/get\",",
@@ -118,14 +116,16 @@
 					"    console.log(response.json());",
 					"} catch (err) {",
 					"    console.error(err);",
-					"}"
+					"}",
+					"pm.variables.get(\"variable_key\");",
+					"pm.variables.set(\"variable_key\", \"variable_value\");"
 				]
 			}
 		}
 	],
 	"variable": [
 		{
-			"id": "acbef98a-1f30-4b6d-a730-4941cd34ae37",
+			"id": "a9cc74f9-4c33-4fe9-8c07-f63749b5fef7",
 			"key": "variable_key",
 			"value": ""
 		}

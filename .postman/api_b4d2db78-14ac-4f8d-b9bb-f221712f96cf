@@ -9,15 +9,16 @@ id = b4d2db78-14ac-4f8d-b9bb-f221712f96cf
 
 [config.relations.collections]
 rootDirectory = postman
-files[] = {"id":"19151314-72a5d6d5-3a24-4bcc-948f-b163a481e0da","path":"api-m.sandbox.paypal.com/v1/oauth2/token.json","metaData":{}}
-files[] = {"id":"19151314-64bcaf24-f6c0-4de6-80bb-293f0e3821a5","path":"boswellmillard9@gmail.com.json","metaData":{}}
+files[] = {"id":"19151314-c42e8044-1258-41c8-8846-c92a21659c5f","path":"boswellmillard9_api1.gmail.com.json","metaData":{}}
 files[] = {"id":"19151314-5a13e8b5-3d87-4686-9d58-fe1656a07292","path":"collections/Plaid API Endpoints.json","metaData":{}}
-files[] = {"id":"19151314-9303e153-833d-4c05-b6ef-9ed48449214b","path":"kwr-1@paypal.com.json","metaData":{}}
-files[] = {"id":"19151314-5187bd0c-b77e-4847-bb17-248fd3bbb2e3","path":"millardb60_api9.gmail.com.json","metaData":{}}
+files[] = {"id":"19151314-0b8ace3e-9e3d-4884-aa4f-c6f7097099d8","path":"kwr-1@paypal.com.json","metaData":{}}
+files[] = {"id":"19151314-4dca893e-36e7-41d3-8051-eaefcac1ffee","path":"millard.xyz_api1.killemwestsiderecords.godaddysites.com.json","metaData":{}}
+files[] = {"id":"19151314-2c31c0df-2cd3-4fc4-a711-c9706b0b3c87","path":"millardb60_api9.gmail.com.json","metaData":{}}
 files[] = {"id":"19151314-d42581f8-9869-491f-9e44-c5016793dfc5","path":"PayPal APIs.json","metaData":{}}
-files[] = {"id":"19151314-7c8623cb-5c44-4ef4-acde-ffb1c49f0b56","path":"paypal@killemwestsiderecords.godaddysites.com.json","metaData":{}}
-files[] = {"id":"19151314-46737406-9a9a-49b6-a4b3-214b9e440bde","path":"SB-1@paypal.com.json","metaData":{}}
-files[] = {"id":"19151314-f4e89afe-8a39-4e16-afd6-389f98139333","path":"tucci.in@gmail.com.json","metaData":{}}
+files[] = {"id":"19151314-3e2c3a1c-f586-4150-9904-d0c9889381a1","path":"paypal@killemwestsiderecords.godaddysites.com.json","metaData":{}}
+files[] = {"id":"19151314-df01bb7b-c2d3-4217-b4f6-4a7455b76c33","path":"SB-1@paypal.com.json","metaData":{}}
+files[] = {"id":"19151314-3fa2325d-63d3-4677-a456-b45a3ddd9dde","path":"tucci.in@gmail.com.json","metaData":{}}
+files[] = {"id":"19151314-6586c7c7-80fd-41df-8739-77f781c51a15","path":"⭐️ Stripe API [2024-04-10].json","metaData":{}}
 
 [config.relations.collections.metaData]
 

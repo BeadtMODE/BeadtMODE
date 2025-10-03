@@ -1,10 +1,10 @@
 {
 	"info": {
-		"_postman_id": "7c8623cb-5c44-4ef4-acde-ffb1c49f0b56",
+		"_postman_id": "3e2c3a1c-f586-4150-9904-d0c9889381a1",
 		"name": "paypal@killemwestsiderecords.godaddysites.com",
 		"description": "Test Call .\n\n<img src=\"https://content.pstmn.io/ad1842b0-2ded-4433-a5f1-a6c502cefe7a/MTAwMDAwMjY5NC5qcGc=\" alt=\"\" height=\"360\" width=\"162\">",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_uid": "19151314-7c8623cb-5c44-4ef4-acde-ffb1c49f0b56"
+		"_uid": "19151314-3e2c3a1c-f586-4150-9904-d0c9889381a1"
 	},
 	"item": [
 		{
@@ -13,7 +13,7 @@
 				{
 					"listen": "test",
 					"script": {
-						"id": "bcadca6b-6bb7-4d30-ba48-d9378d5f2fc0",
+						"id": "12fa3b72-452a-492d-bdb2-dd205523280b",
 						"exec": [
 							"try {",
 							"pm.variables.get(\"variable_key\");",
@@ -33,7 +33,7 @@
 					}
 				}
 			],
-			"id": "5eac0f2f-3416-4ed1-a5d2-0a01f214b648",
+			"id": "e51416e3-7407-42d9-aa74-1e0f3576ca07",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -92,7 +92,7 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "ebb3236c-1dab-435d-b24a-2f2e5f9e2184",
+				"id": "5a524dd6-74d5-4954-bb27-cfda29f7250b",
 				"type": "text/javascript",
 				"packages": {},
 				"exec": [
@@ -103,7 +103,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "3cb6bd6d-90c7-4d81-906a-ffc26a5aa09c",
+				"id": "de2c5e3d-5334-4fd6-abd2-1b4812d8e657",
 				"type": "text/javascript",
 				"packages": {},
 				"exec": [
@@ -125,7 +125,7 @@
 	],
 	"variable": [
 		{
-			"id": "1fca82ac-d4a6-4325-b6a8-38857ed5ca73",
+			"id": "88e8a943-ac73-455f-8fc9-cb0f5b4f3ca6",
 			"key": "variable_key",
 			"value": ""
 		}
