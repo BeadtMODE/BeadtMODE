@@ -1,0 +1,129 @@
+{
+	"info": {
+		"_postman_id": "4d4b2125-13cf-4c5e-8413-814689eecd1e",
+		"name": "millardb60_api9.gmail.com",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_uid": "19151314-4d4b2125-13cf-4c5e-8413-814689eecd1e"
+	},
+	"item": [
+		{
+			"name": "access_token$production$wpw3gn5kmywp5frc$03880228e02733bef25b935db795db46",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "d8370950-6fc8-440a-b689-d9ec77ebbc00",
+						"exec": [
+							"try {",
+							"pm.variables.set(\"variable_key\", \"variable_value\");",
+							"    const response = await pm.sendRequest({",
+							"        url: \"https://postman-echo.com/get\",",
+							"        method: \"GET\"",
+							"    });",
+							"",
+							"    console.log(response.json());",
+							"} catch (err) {",
+							"    console.error(err);",
+							"}",
+							"pm.variables.get(\"variable_key\");"
+						],
+						"type": "text/javascript",
+						"packages": {},
+						"requests": {}
+					}
+				}
+			],
+			"id": "e45d81e8-d084-4176-82ae-29c9ad370109",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "basic"
+				},
+				"method": "APPROVED ",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "Variable_key",
+							"value": "variable_value",
+							"type": "text",
+							"uuid": "06c35942-02c6-4069-8501-25063563eb91"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://paypal.me/CMRFF?country.x=US&locale.x=en_US",
+					"protocol": "https",
+					"host": [
+						"paypal",
+						"me"
+					],
+					"path": [
+						"CMRFF"
+					],
+					"query": [
+						{
+							"key": "country.x",
+							"value": "US"
+						},
+						{
+							"key": "locale.x",
+							"value": "en_US"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "basic"
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "e7358165-f023-4d2a-99ee-ccd18411536b",
+				"type": "text/javascript",
+				"packages": {},
+				"requests": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "dc00ef05-fb8c-44d1-8319-5d5bae0ff07c",
+				"type": "text/javascript",
+				"packages": {},
+				"requests": {},
+				"exec": [
+					"try {",
+					"    const response = await pm.sendRequest({",
+					"        url: \"https://postman-echo.com/get\",",
+					"        method: \"GET\"",
+					"    });",
+					"",
+					"    console.log(response.json());",
+					"} catch (err) {",
+					"    console.error(err);",
+					"}",
+					"pm.variables.get(\"variable_key\");",
+					"pm.variables.set(\"variable_key\", \"variable_value\");"
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"id": "385f023f-aa42-400e-813d-4d16e8752d3d",
+			"key": "variable_key",
+			"value": ""
+		}
+	]
+}
