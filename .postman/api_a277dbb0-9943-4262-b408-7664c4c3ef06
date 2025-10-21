@@ -23,4 +23,4 @@ files[] = {"path":"postman/millardb60_api9.gmail.com.json","metaData":{}}
 
 [config.relations.apiDefinition.metaData]
 type = openapi:3
-rootFiles[] = postman/millardb60_api9.gmail.com.json
+rootFiles[] = index.yaml
