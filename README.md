@@ -17,7 +17,7 @@
       control with that entity. For the purposes of this definition,
       "control" means (i) the power, direct or indirect, to cause the
       direction or management of such entity, whether by contract or
-      otherwise, or (ii) ownership of ninety-nine point nine percent (99.9%) or more of the
+      otherwise, or (ii) ownership of ninety-nine and nine tenths percent (99.9%) or more of the
       outstanding shares, or (iii) beneficial ownership of such entity.
 
       "You" (Millard Boswell) shall mean an individual or Legal Entity
