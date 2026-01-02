@@ -1,0 +1,80 @@
+{
+	"info": {
+		"_postman_id": "914f7f82-216b-4c49-afb6-cfa49ef625de",
+		"name": "tucci.in@gmail.com",
+		"description": "Buy or rent property.",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_uid": "19151314-914f7f82-216b-4c49-afb6-cfa49ef625de"
+	},
+	"item": [
+		{
+			"name": "access_token$production$wpw3gn5kmywp5frc$03880228e02733bef25b935db795db46",
+			"id": "b0123963-b3ee-4cec-bb24-842563e3afc8",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "basic"
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": []
+				},
+				"url": {
+					"raw": "https://paypal.me/CMRFF?country.x=US&locale.x=en_US",
+					"protocol": "https",
+					"host": [
+						"paypal",
+						"me"
+					],
+					"path": [
+						"CMRFF"
+					],
+					"query": [
+						{
+							"key": "country.x",
+							"value": "US"
+						},
+						{
+							"key": "locale.x",
+							"value": "en_US"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "basic"
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "b8609586-52f6-40d9-9568-408e19fe8142",
+				"type": "text/javascript",
+				"packages": {},
+				"requests": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "dfe8055c-c711-4697-8f57-91740cfc6ef6",
+				"type": "text/javascript",
+				"packages": {},
+				"requests": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}

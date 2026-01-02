@@ -1,9 +1,9 @@
 {
 	"info": {
-		"_postman_id": "6bf06f96-38bc-4ce9-93e9-2a35468a0277",
+		"_postman_id": "db314c42-0fb0-4523-b652-f9c24bb88b2a",
 		"name": "boswellmillard9_api1.gmail.com",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_uid": "19151314-6bf06f96-38bc-4ce9-93e9-2a35468a0277"
+		"_uid": "19151314-db314c42-0fb0-4523-b652-f9c24bb88b2a"
 	},
 	"item": [
 		{
@@ -12,7 +12,7 @@
 				{
 					"listen": "test",
 					"script": {
-						"id": "7dd3ebb8-7099-4e1b-b64c-b3b668414ea8",
+						"id": "afb184e4-387a-4a19-87c4-a81b802cf43c",
 						"exec": [
 							"pm.variables.set(\"variable_key\", \"variable_value\");",
 							"try {",
@@ -33,7 +33,7 @@
 					}
 				}
 			],
-			"id": "82c71491-8f6a-4bfc-b64d-1bd7789d878f",
+			"id": "0a63904b-a702-4c42-bc99-45840e08584b",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -86,7 +86,7 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "8054dd8c-eb2c-41cb-82c3-907cf0e47f88",
+				"id": "328df9d9-cbb3-4ab8-9518-e1d66961d21a",
 				"type": "text/javascript",
 				"packages": {},
 				"requests": {},
@@ -98,7 +98,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "a992eab9-b781-4e9b-8644-a3e4771a2a6d",
+				"id": "73e049ff-6275-4ff3-8d72-edf0e5abbace",
 				"type": "text/javascript",
 				"packages": {},
 				"requests": {},
