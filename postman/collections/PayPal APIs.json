@@ -3147,7 +3147,7 @@
 									}
 								],
 								"url": {
-									"raw": "{{base_url}}/v1/identity/oauth2/userinfo?schema=paypalv1.1",
+									"raw": "{{base_url}}/v1/identity/oauth2/userinfo",
 									"host": [
 										"{{base_url}}"
 									],
@@ -4496,7 +4496,7 @@
 									}
 								],
 								"url": {
-									"raw": "{{base_url}}/v1/identity/oauth2/userinfo?schema=paypalv1.1",
+									"raw": "{{base_url}}/v1/identity/oauth2/userinfo",
 									"host": [
 										"{{base_url}}"
 									],
@@ -39923,7 +39923,7 @@
 											}
 										],
 										"url": {
-											"raw": "{{base_url}}/v2/invoicing/invoices?page=1&page_size=10&total_required=false&fields=ullamco laboris",
+											"raw": "{{base_url}}/v2/invoicing/invoices",
 											"host": [
 												"{{base_url}}"
 											],
@@ -40875,7 +40875,7 @@
 											}
 										],
 										"url": {
-											"raw": "{{base_url}}/v2/invoicing/invoices?page=1&page_size=10&total_required=false&fields=ullamco laboris",
+											"raw": "{{base_url}}/v2/invoicing/invoices",
 											"host": [
 												"{{base_url}}"
 											],
@@ -72738,7 +72738,7 @@
 											}
 										],
 										"url": {
-											"raw": "{{base_url}}/v1/billing/plans?product_id={{product_id}}&plan_ids={{billing_plan_id}}&page_size=10&page=1&total_required=true",
+											"raw": "{{base_url}}/v1/billing/plans?page_size=10&page=1&total_required=true",
 											"host": [
 												"{{base_url}}"
 											],
@@ -72889,7 +72889,7 @@
 											}
 										],
 										"url": {
-											"raw": "{{base_url}}/v1/billing/plans?product_id={{product_id}}&plan_ids={{billing_plan_id}}&page_size=10&page=1&total_required=true",
+											"raw": "{{base_url}}/v1/billing/plans?plan_ids={{billing_plan_id}}&page_size=10&page=1&total_required=true",
 											"host": [
 												"{{base_url}}"
 											],
@@ -73087,7 +73087,7 @@
 											}
 										],
 										"url": {
-											"raw": "{{base_url}}/v1/billing/plans?product_id={{product_id}}&plan_ids={{billing_plan_id}}&page_size=10&page=1&total_required=true",
+											"raw": "{{base_url}}/v1/billing/plans?product_id={{product_id}}&page_size=10&page=1&total_required=true",
 											"host": [
 												"{{base_url}}"
 											],
@@ -73482,7 +73482,7 @@
 											}
 										],
 										"url": {
-											"raw": "{{base_url}}/v1/billing/plans?product_id={{product_id}}&plan_ids={{billing_plan_id}}&page_size=10&page=1&total_required=true",
+											"raw": "{{base_url}}/v1/billing/plans?page_size=10&page=1&total_required=true",
 											"host": [
 												"{{base_url}}"
 											],
@@ -73669,7 +73669,7 @@
 											}
 										],
 										"url": {
-											"raw": "{{base_url}}/v1/billing/plans?product_id=1680892100&plan_ids={{billing_plan_id}}&page_size=10&page=1&total_required=true",
+											"raw": "{{base_url}}/v1/billing/plans?product_id=1680892100&page_size=10&page=1&total_required=true",
 											"host": [
 												"{{base_url}}"
 											],
@@ -73861,7 +73861,7 @@
 											}
 										],
 										"url": {
-											"raw": "{{base_url}}/v1/billing/plans?product_id={{product_id}}&plan_ids={{billing_plan_id}}&page_size=10&page=1&total_required=true",
+											"raw": "{{base_url}}/v1/billing/plans?page_size=10&page=1&total_required=true",
 											"host": [
 												"{{base_url}}"
 											],
@@ -74048,7 +74048,7 @@
 											}
 										],
 										"url": {
-											"raw": "{{base_url}}/v1/billing/plans?product_id={{product_id}}&plan_ids={{billing_plan_id}}&page_size=10&page=1&total_required=true",
+											"raw": "{{base_url}}/v1/billing/plans?plan_ids={{billing_plan_id}}&page_size=10&page=1&total_required=true",
 											"host": [
 												"{{base_url}}"
 											],
@@ -74443,7 +74443,7 @@
 											}
 										],
 										"url": {
-											"raw": "{{base_url}}/v1/billing/plans?product_id=1680892100&plan_ids={{billing_plan_id}}&page_size=10&page=1&total_required=true",
+											"raw": "{{base_url}}/v1/billing/plans?product_id=1680892100&page_size=10&page=1&total_required=true",
 											"host": [
 												"{{base_url}}"
 											],
@@ -74635,7 +74635,7 @@
 											}
 										],
 										"url": {
-											"raw": "{{base_url}}/v1/billing/plans?product_id={{product_id}}&plan_ids={{billing_plan_id}}&page_size=10&page=1&total_required=true",
+											"raw": "{{base_url}}/v1/billing/plans?page_size=10&page=1&total_required=true",
 											"host": [
 												"{{base_url}}"
 											],
@@ -74786,7 +74786,7 @@
 											}
 										],
 										"url": {
-											"raw": "{{base_url}}/v1/billing/plans?product_id={{product_id}}&plan_ids={{billing_plan_id}}&page_size=10&page=1&total_required=true",
+											"raw": "{{base_url}}/v1/billing/plans?product_id={{product_id}}&page_size=10&page=1&total_required=true",
 											"host": [
 												"{{base_url}}"
 											],
@@ -83199,7 +83199,7 @@
 											}
 										],
 										"url": {
-											"raw": "{{base_url}}/v1/billing/subscriptions/:subscription_id?fields=last_failed_payment,plan",
+											"raw": "{{base_url}}/v1/billing/subscriptions/:subscription_id",
 											"host": [
 												"{{base_url}}"
 											],
@@ -83568,7 +83568,7 @@
 											}
 										],
 										"url": {
-											"raw": "{{base_url}}/v1/billing/subscriptions/:subscription_id?fields=last_failed_payment,plan",
+											"raw": "{{base_url}}/v1/billing/subscriptions/:subscription_id",
 											"host": [
 												"{{base_url}}"
 											],
@@ -83741,7 +83741,7 @@
 											}
 										],
 										"url": {
-											"raw": "{{base_url}}/v1/billing/subscriptions/:subscription_id?fields=last_failed_payment,plan",
+											"raw": "{{base_url}}/v1/billing/subscriptions/:subscription_id",
 											"host": [
 												"{{base_url}}"
 											],
@@ -83914,7 +83914,7 @@
 											}
 										],
 										"url": {
-											"raw": "{{base_url}}/v1/billing/subscriptions/:subscription_id?fields=last_failed_payment,plan",
+											"raw": "{{base_url}}/v1/billing/subscriptions/:subscription_id",
 											"host": [
 												"{{base_url}}"
 											],
@@ -84093,7 +84093,7 @@
 											}
 										],
 										"url": {
-											"raw": "{{base_url}}/v1/billing/subscriptions/:subscription_id?fields=last_failed_payment,plan",
+											"raw": "{{base_url}}/v1/billing/subscriptions/:subscription_id",
 											"host": [
 												"{{base_url}}"
 											],
@@ -84272,7 +84272,7 @@
 											}
 										],
 										"url": {
-											"raw": "{{base_url}}/v1/billing/subscriptions/:subscription_id?fields=last_failed_payment,plan",
+											"raw": "{{base_url}}/v1/billing/subscriptions/:subscription_id",
 											"host": [
 												"{{base_url}}"
 											],
@@ -84445,7 +84445,7 @@
 											}
 										],
 										"url": {
-											"raw": "{{base_url}}/v1/billing/subscriptions/:subscription_id?fields=last_failed_payment,plan",
+											"raw": "{{base_url}}/v1/billing/subscriptions/:subscription_id",
 											"host": [
 												"{{base_url}}"
 											],
@@ -84618,7 +84618,7 @@
 											}
 										],
 										"url": {
-											"raw": "{{base_url}}/v1/billing/subscriptions/:subscription_id?fields=last_failed_payment,plan",
+											"raw": "{{base_url}}/v1/billing/subscriptions/:subscription_id",
 											"host": [
 												"{{base_url}}"
 											],
@@ -93768,7 +93768,7 @@
 											}
 										],
 										"url": {
-											"raw": "{{base_url}}/v1/billing/subscriptions/:subscription_id/transactions?start_time=2022-01-01T00:00:00.000Z&end_time=2030-01-01T00:00:00.000Z",
+											"raw": "{{base_url}}/v1/billing/subscriptions/:subscription_id/transactions",
 											"host": [
 												"{{base_url}}"
 											],
@@ -95040,7 +95040,7 @@
 											}
 										],
 										"url": {
-											"raw": "{{base_url}}/v1/billing/subscriptions/:subscription_id/transactions?start_time=2022-01-01T00:00:00.000Z&end_time=2030-01-01T00:00:00.000Z",
+											"raw": "{{base_url}}/v1/billing/subscriptions/:subscription_id/transactions",
 											"host": [
 												"{{base_url}}"
 											],
@@ -96462,7 +96462,7 @@
 									}
 								],
 								"url": {
-									"raw": "{{base_url}}/v1/payments/payouts/:payout_batch_id?fields=amet commodo incididunt aute minim&page=1&page_size=39318774&total_required=false",
+									"raw": "{{base_url}}/v1/payments/payouts/:payout_batch_id",
 									"host": [
 										"{{base_url}}"
 									],
@@ -96667,7 +96667,7 @@
 									}
 								],
 								"url": {
-									"raw": "{{base_url}}/v1/payments/payouts/:payout_batch_id?fields=amet commodo incididunt aute minim&page=1&page_size=39318774&total_required=false",
+									"raw": "{{base_url}}/v1/payments/payouts/:payout_batch_id",
 									"host": [
 										"{{base_url}}"
 									],
@@ -96860,7 +96860,7 @@
 									}
 								],
 								"url": {
-									"raw": "{{base_url}}/v1/payments/payouts/:payout_batch_id?fields=amet commodo incididunt aute minim&page=1&page_size=39318774&total_required=false",
+									"raw": "{{base_url}}/v1/payments/payouts/:payout_batch_id",
 									"host": [
 										"{{base_url}}"
 									],
@@ -97059,7 +97059,7 @@
 									}
 								],
 								"url": {
-									"raw": "{{base_url}}/v1/payments/payouts/:payout_batch_id?fields=amet commodo incididunt aute minim&page=1&page_size=39318774&total_required=false",
+									"raw": "{{base_url}}/v1/payments/payouts/:payout_batch_id",
 									"host": [
 										"{{base_url}}"
 									],
@@ -97264,7 +97264,7 @@
 									}
 								],
 								"url": {
-									"raw": "{{base_url}}/v1/payments/payouts/:payout_batch_id?fields=amet commodo incididunt aute minim&page=1&page_size=39318774&total_required=false",
+									"raw": "{{base_url}}/v1/payments/payouts/:payout_batch_id",
 									"host": [
 										"{{base_url}}"
 									],
@@ -97463,7 +97463,7 @@
 									}
 								],
 								"url": {
-									"raw": "{{base_url}}/v1/payments/payouts/:payout_batch_id?fields=amet commodo incididunt aute minim&page=1&page_size=39318774&total_required=false",
+									"raw": "{{base_url}}/v1/payments/payouts/:payout_batch_id",
 									"host": [
 										"{{base_url}}"
 									],
@@ -102327,7 +102327,7 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "{{base_url}}/v1/notifications/webhooks?anchor_type=APPLICATION&anchor_type=ACCOUNT",
+									"raw": "{{base_url}}/v1/notifications/webhooks",
 									"host": [
 										"{{base_url}}"
 									],
@@ -102475,7 +102475,7 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "{{base_url}}/v1/notifications/webhooks?anchor_type=APPLICATION&anchor_type=ACCOUNT",
+									"raw": "{{base_url}}/v1/notifications/webhooks",
 									"host": [
 										"{{base_url}}"
 									],
@@ -102605,7 +102605,7 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "{{base_url}}/v1/notifications/webhooks?anchor_type=APPLICATION&anchor_type=ACCOUNT",
+									"raw": "{{base_url}}/v1/notifications/webhooks",
 									"host": [
 										"{{base_url}}"
 									],
@@ -102753,7 +102753,7 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "{{base_url}}/v1/notifications/webhooks?anchor_type=APPLICATION&anchor_type=ACCOUNT",
+									"raw": "{{base_url}}/v1/notifications/webhooks",
 									"host": [
 										"{{base_url}}"
 									],
@@ -104122,7 +104122,7 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "{{base_url}}/v1/notifications/webhooks-events?page_size=10&start_time=2022-02-01T00:00:00Z&end_time=2022-03-01T00:00:00Z&transaction_id={{capture_id}}&event_type=PAYMENT.CAPTURE.COMPLETED&move_to=next&offset=10&prev_offset=10&index_id=1",
+									"raw": "{{base_url}}/v1/notifications/webhooks-events",
 									"host": [
 										"{{base_url}}"
 									],
@@ -104308,7 +104308,7 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "{{base_url}}/v1/notifications/webhooks-events?page_size=10&start_time=2022-02-01T00:00:00Z&end_time=2022-03-01T00:00:00Z&transaction_id={{capture_id}}&event_type=PAYMENT.CAPTURE.COMPLETED&move_to=next&offset=10&prev_offset=10&index_id=1",
+									"raw": "{{base_url}}/v1/notifications/webhooks-events?transaction_id={{capture_id}}",
 									"host": [
 										"{{base_url}}"
 									],
@@ -104493,7 +104493,7 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "{{base_url}}/v1/notifications/webhooks-events?page_size=10&start_time=2022-02-01T00:00:00Z&end_time=2022-03-01T00:00:00Z&transaction_id={{capture_id}}&event_type=PAYMENT.CAPTURE.COMPLETED&move_to=next&offset=10&prev_offset=10&index_id=1",
+									"raw": "{{base_url}}/v1/notifications/webhooks-events",
 									"host": [
 										"{{base_url}}"
 									],
@@ -104661,7 +104661,7 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "{{base_url}}/v1/notifications/webhooks-events?page_size=10&start_time=2022-02-01T00:00:00Z&end_time=2022-03-01T00:00:00Z&transaction_id={{capture_id}}&event_type=PAYMENT.CAPTURE.COMPLETED&move_to=next&offset=10&prev_offset=10&index_id=1",
+									"raw": "{{base_url}}/v1/notifications/webhooks-events?transaction_id={{capture_id}}",
 									"host": [
 										"{{base_url}}"
 									],
@@ -104846,7 +104846,7 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "{{base_url}}/v1/notifications/webhooks-events?page_size=10&start_time=2022-02-01T00:00:00Z&end_time=2022-03-01T00:00:00Z&transaction_id={{capture_id}}&event_type=PAYMENT.CAPTURE.COMPLETED&move_to=next&offset=10&prev_offset=10&index_id=1",
+									"raw": "{{base_url}}/v1/notifications/webhooks-events",
 									"host": [
 										"{{base_url}}"
 									],
@@ -105014,7 +105014,7 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "{{base_url}}/v1/notifications/webhooks-events?page_size=10&start_time=2022-02-01T00:00:00Z&end_time=2022-03-01T00:00:00Z&transaction_id={{capture_id}}&event_type=PAYMENT.CAPTURE.COMPLETED&move_to=next&offset=10&prev_offset=10&index_id=1",
+									"raw": "{{base_url}}/v1/notifications/webhooks-events",
 									"host": [
 										"{{base_url}}"
 									],
@@ -118978,7 +118978,7 @@
 									}
 								],
 								"url": {
-									"raw": "{{base_url}}/v1/reporting/transactions?fields=transaction_info,payer_info,shipping_info,auction_info,cart_info,incentive_info,store_info&start_date=2022-02-20T23:59:59.999Z&end_date=2022-03-20T00:00:00.000Z&transaction_id={{capture_id}}&transaction_type=T0005&transaction_status=S&transaction_amount=%5B1000%20TO%20100000%5D&transaction_currency=USD&payment_instrument_type=CREDITCARD&balance_affecting_records_only=Y&terminal_id=&store_id=&page=1&page_size=100",
+									"raw": "{{base_url}}/v1/reporting/transactions?start_date=2022-02-20T23:59:59.999Z&end_date=2022-03-20T00:00:00.000Z",
 									"host": [
 										"{{base_url}}"
 									],
@@ -119185,7 +119185,7 @@
 									}
 								],
 								"url": {
-									"raw": "{{base_url}}/v1/reporting/transactions?fields=transaction_info,payer_info,shipping_info,auction_info,cart_info,incentive_info,store_info&start_date=2022-02-20T23:59:59.999Z&end_date=2022-03-20T00:00:00.000Z&transaction_id={{capture_id}}&transaction_type=T0005&transaction_status=S&transaction_amount=%5B1000%20TO%20100000%5D&transaction_currency=USD&payment_instrument_type=CREDITCARD&balance_affecting_records_only=Y&terminal_id=&store_id=&page=1&page_size=100",
+									"raw": "{{base_url}}/v1/reporting/transactions?fields=transaction_info,payer_info,shipping_info,auction_info,cart_info,incentive_info,store_info&start_date=2022-02-20T23:59:59.999Z&end_date=2022-03-20T00:00:00.000Z&transaction_type=T0005&transaction_status=S&transaction_amount=%5B1000%20TO%20100000%5D&transaction_currency=USD&payment_instrument_type=CREDITCARD&balance_affecting_records_only=Y&page=1&page_size=100",
 									"host": [
 										"{{base_url}}"
 									],
@@ -119383,7 +119383,7 @@
 									}
 								],
 								"url": {
-									"raw": "{{base_url}}/v1/reporting/transactions?fields=transaction_info,payer_info,shipping_info,auction_info,cart_info,incentive_info,store_info&start_date=2022-02-20T23:59:59.999Z&end_date=2022-03-20T00:00:00.000Z&transaction_id=62G97620PP532404S&transaction_type=T0005&transaction_status=S&transaction_amount=%5B1000%20TO%20100000%5D&transaction_currency=USD&payment_instrument_type=CREDITCARD&balance_affecting_records_only=Y&terminal_id=&store_id=&page=1&page_size=100",
+									"raw": "{{base_url}}/v1/reporting/transactions?start_date=2022-02-20T23:59:59.999Z&end_date=2022-03-20T00:00:00.000Z&transaction_id=62G97620PP532404S",
 									"host": [
 										"{{base_url}}"
 									],
@@ -119589,7 +119589,7 @@
 									}
 								],
 								"url": {
-									"raw": "{{base_url}}/v1/reporting/transactions?fields=transaction_info,payer_info,shipping_info,auction_info,cart_info,incentive_info,store_info&start_date=2022-02-20T23:59:59.999Z&end_date=2022-03-20T00:00:00.000Z&transaction_id={{capture_id}}&transaction_type=T0005&transaction_status=S&transaction_amount=%5B1000%20TO%20100000%5D&transaction_currency=USD&payment_instrument_type=CREDITCARD&balance_affecting_records_only=Y&terminal_id=&store_id=&page=1&page_size=100",
+									"raw": "{{base_url}}/v1/reporting/transactions?fields=transaction_info,payer_info,shipping_info,auction_info,cart_info,incentive_info,store_info&start_date=2022-02-20T23:59:59.999Z&end_date=2022-03-20T00:00:00.000Z",
 									"host": [
 										"{{base_url}}"
 									],
@@ -119843,7 +119843,7 @@
 									}
 								],
 								"url": {
-									"raw": "{{base_url}}/v1/reporting/transactions?fields=transaction_info,payer_info,shipping_info,auction_info,cart_info,incentive_info,store_info&start_date=2022-02-20T23:59:59.999Z&end_date=2032-03-20T00:00:00.000Z&transaction_id={{capture_id}}&transaction_type=T0005&transaction_status=S&transaction_amount=%5B1000%20TO%20100000%5D&transaction_currency=USD&payment_instrument_type=CREDITCARD&balance_affecting_records_only=Y&terminal_id=&store_id=&page=1&page_size=100",
+									"raw": "{{base_url}}/v1/reporting/transactions?fields=transaction_info,payer_info,shipping_info,auction_info,cart_info,incentive_info,store_info&start_date=2022-02-20T23:59:59.999Z&end_date=2032-03-20T00:00:00.000Z",
 									"host": [
 										"{{base_url}}"
 									],
@@ -120085,7 +120085,7 @@
 									}
 								],
 								"url": {
-									"raw": "{{base_url}}/v1/reporting/transactions?fields=transaction_info,payer_info,shipping_info,auction_info,cart_info,incentive_info,store_info&start_date=2022-02-20T23:59:59.999Z&end_date=2022-03-20T00:00:00.000Z&transaction_id={{capture_id}}&transaction_type=T0005&transaction_status=S&transaction_amount=%5B1000%20TO%20100000%5D&transaction_currency=USD&payment_instrument_type=CREDITCARD&balance_affecting_records_only=Y&terminal_id=&store_id=&page=1&page_size=100",
+									"raw": "{{base_url}}/v1/reporting/transactions",
 									"host": [
 										"{{base_url}}"
 									],
@@ -120294,7 +120294,7 @@
 									}
 								],
 								"url": {
-									"raw": "{{base_url}}/v1/reporting/transactions?fields=transaction_info,payer_info,shipping_info,auction_info,cart_info,incentive_info,store_info&start_date=2022-02-20T23:59:59.999Z&end_date=2022-03-20T00:00:00.000Z&transaction_id={{capture_id}}&transaction_type=T0005&transaction_status=S&transaction_amount=%5B1000%20TO%20100000%5D&transaction_currency=USD&payment_instrument_type=CREDITCARD&balance_affecting_records_only=Y&terminal_id=&store_id=&page=1&page_size=100",
+									"raw": "{{base_url}}/v1/reporting/transactions?fields=transaction_info,payer_info,shipping_info,auction_info,cart_info,incentive_info,store_info&start_date=2022-02-20T23:59:59.999Z&end_date=2022-03-20T00:00:00.000Z",
 									"host": [
 										"{{base_url}}"
 									],
@@ -120536,7 +120536,7 @@
 									}
 								],
 								"url": {
-									"raw": "{{base_url}}/v1/reporting/transactions?fields=transaction_info,payer_info,shipping_info,auction_info,cart_info,incentive_info,store_info&start_date=2022-02-20T23:59:59.999Z&end_date=2022-03-20T00:00:00.000Z&transaction_id={{capture_id}}&transaction_type=T0005&transaction_status=S&transaction_amount=%5B1000%20TO%20100000%5D&transaction_currency=USD&payment_instrument_type=CREDITCARD&balance_affecting_records_only=Y&terminal_id=&store_id=&page=1&page_size=100",
+									"raw": "{{base_url}}/v1/reporting/transactions?fields=transaction_info,payer_info,shipping_info,auction_info,cart_info,incentive_info,store_info&start_date=2022-02-20T23:59:59.999Z&end_date=2022-03-20T00:00:00.000Z",
 									"host": [
 										"{{base_url}}"
 									],
@@ -120706,7 +120706,7 @@
 									}
 								],
 								"url": {
-									"raw": "{{base_url}}/v1/reporting/transactions?fields=transaction_info,payer_info,shipping_info,auction_info,cart_info,incentive_info,store_info&start_date=2022-02-20T23:59:59.999Z&end_date=2022-03-20T00:00:00.000Z&transaction_id={{capture_id}}&transaction_type=T0005&transaction_status=S&transaction_amount=%5B1000%20TO%20100000%5D&transaction_currency=USD&payment_instrument_type=CREDITCARD&balance_affecting_records_only=Y&terminal_id=&store_id=&page=1&page_size=100",
+									"raw": "{{base_url}}/v1/reporting/transactions?fields=transaction_info,payer_info,shipping_info,auction_info,cart_info,incentive_info,store_info&start_date=2022-02-20T23:59:59.999Z&end_date=2022-03-20T00:00:00.000Z",
 									"host": [
 										"{{base_url}}"
 									],
@@ -120960,7 +120960,7 @@
 									}
 								],
 								"url": {
-									"raw": "{{base_url}}/v1/reporting/transactions?fields=transaction_info,payer_info,shipping_info,auction_info,cart_info,incentive_info,store_info&start_date=2022-02-20T23:59:59.999Z&end_date=2022-03-20T00:00:00.000Z&transaction_id={{capture_id}}&transaction_type=T0005&transaction_status=S&transaction_amount=%5B1000%20TO%20100000%5D&transaction_currency=USD&payment_instrument_type=CREDITCARD&balance_affecting_records_only=Y&terminal_id=&store_id=&page=1&page_size=100",
+									"raw": "{{base_url}}/v1/reporting/transactions?fields=transaction_info,payer_info,shipping_info,auction_info,cart_info,incentive_info,store_info&start_date=2022-02-20T23:59:59.999Z&end_date=2022-03-20T00:00:00.000Z&transaction_type=T0005&transaction_status=S&transaction_amount=%5B1000%20TO%20100000%5D&transaction_currency=USD&payment_instrument_type=CREDITCARD&balance_affecting_records_only=Y&page=1&page_size=100",
 									"host": [
 										"{{base_url}}"
 									],
@@ -121158,7 +121158,7 @@
 									}
 								],
 								"url": {
-									"raw": "{{base_url}}/v1/reporting/transactions?fields=transaction_info,payer_info,shipping_info,auction_info,cart_info,incentive_info,store_info&start_date=2022-02-20T23:59:59.999Z&end_date=2032-03-20T00:00:00.000Z&transaction_id={{capture_id}}&transaction_type=T0005&transaction_status=S&transaction_amount=%5B1000%20TO%20100000%5D&transaction_currency=USD&payment_instrument_type=CREDITCARD&balance_affecting_records_only=Y&terminal_id=&store_id=&page=1&page_size=100",
+									"raw": "{{base_url}}/v1/reporting/transactions?fields=transaction_info,payer_info,shipping_info,auction_info,cart_info,incentive_info,store_info&start_date=2022-02-20T23:59:59.999Z&end_date=2032-03-20T00:00:00.000Z",
 									"host": [
 										"{{base_url}}"
 									],
@@ -121400,7 +121400,7 @@
 									}
 								],
 								"url": {
-									"raw": "{{base_url}}/v1/reporting/transactions?fields=transaction_info,payer_info,shipping_info,auction_info,cart_info,incentive_info,store_info&start_date=2022-02-20T23:59:59.999Z&end_date=2022-03-20T00:00:00.000Z&transaction_id={{capture_id}}&transaction_type=T0005&transaction_status=S&transaction_amount=%5B1000%20TO%20100000%5D&transaction_currency=USD&payment_instrument_type=CREDITCARD&balance_affecting_records_only=Y&terminal_id=&store_id=&page=1&page_size=100",
+									"raw": "{{base_url}}/v1/reporting/transactions?fields=transaction_info,payer_info,shipping_info,auction_info,cart_info,incentive_info,store_info&start_date=2022-02-20T23:59:59.999Z&end_date=2022-03-20T00:00:00.000Z",
 									"host": [
 										"{{base_url}}"
 									],
@@ -121642,7 +121642,7 @@
 									}
 								],
 								"url": {
-									"raw": "{{base_url}}/v1/reporting/transactions?fields=transaction_info,payer_info,shipping_info,auction_info,cart_info,incentive_info,store_info&start_date=2022-02-20T23:59:59.999Z&end_date=2022-03-20T00:00:00.000Z&transaction_id=62G97620PP532404S&transaction_type=T0005&transaction_status=S&transaction_amount=%5B1000%20TO%20100000%5D&transaction_currency=USD&payment_instrument_type=CREDITCARD&balance_affecting_records_only=Y&terminal_id=&store_id=&page=1&page_size=100",
+									"raw": "{{base_url}}/v1/reporting/transactions?start_date=2022-02-20T23:59:59.999Z&end_date=2022-03-20T00:00:00.000Z&transaction_id=62G97620PP532404S",
 									"host": [
 										"{{base_url}}"
 									],
@@ -121848,7 +121848,7 @@
 									}
 								],
 								"url": {
-									"raw": "{{base_url}}/v1/reporting/transactions?fields=transaction_info,payer_info,shipping_info,auction_info,cart_info,incentive_info,store_info&start_date=2022-02-20T23:59:59.999Z&end_date=2022-03-20T00:00:00.000Z&transaction_id={{capture_id}}&transaction_type=T0005&transaction_status=S&transaction_amount=%5B1000%20TO%20100000%5D&transaction_currency=USD&payment_instrument_type=CREDITCARD&balance_affecting_records_only=Y&terminal_id=&store_id=&page=1&page_size=100",
+									"raw": "{{base_url}}/v1/reporting/transactions?fields=transaction_info,payer_info,shipping_info,auction_info,cart_info,incentive_info,store_info&start_date=2022-02-20T23:59:59.999Z&end_date=2022-03-20T00:00:00.000Z",
 									"host": [
 										"{{base_url}}"
 									],
@@ -122018,7 +122018,7 @@
 									}
 								],
 								"url": {
-									"raw": "{{base_url}}/v1/reporting/transactions?fields=transaction_info,payer_info,shipping_info,auction_info,cart_info,incentive_info,store_info&start_date=2022-02-20T23:59:59.999Z&end_date=2022-03-20T00:00:00.000Z&transaction_id={{capture_id}}&transaction_type=T0005&transaction_status=S&transaction_amount=%5B1000%20TO%20100000%5D&transaction_currency=USD&payment_instrument_type=CREDITCARD&balance_affecting_records_only=Y&terminal_id=&store_id=&page=1&page_size=100",
+									"raw": "{{base_url}}/v1/reporting/transactions?start_date=2022-02-20T23:59:59.999Z&end_date=2022-03-20T00:00:00.000Z",
 									"host": [
 										"{{base_url}}"
 									],
@@ -122225,7 +122225,7 @@
 									}
 								],
 								"url": {
-									"raw": "{{base_url}}/v1/reporting/transactions?fields=transaction_info,payer_info,shipping_info,auction_info,cart_info,incentive_info,store_info&start_date=2022-02-20T23:59:59.999Z&end_date=2022-03-20T00:00:00.000Z&transaction_id={{capture_id}}&transaction_type=T0005&transaction_status=S&transaction_amount=%5B1000%20TO%20100000%5D&transaction_currency=USD&payment_instrument_type=CREDITCARD&balance_affecting_records_only=Y&terminal_id=&store_id=&page=1&page_size=100",
+									"raw": "{{base_url}}/v1/reporting/transactions",
 									"host": [
 										"{{base_url}}"
 									],
@@ -122806,7 +122806,7 @@
 									}
 								],
 								"url": {
-									"raw": "{{base_url}}/v1/reporting/balances?as_of_time=2022-03-20T00:00:00.000Z&currency_code=ALL&include_crypto_currencies=true",
+									"raw": "{{base_url}}/v1/reporting/balances",
 									"host": [
 										"{{base_url}}"
 									],
@@ -123313,7 +123313,7 @@
 									}
 								],
 								"url": {
-									"raw": "{{base_url}}/v1/reporting/balances?as_of_time=2022-03-20T00:00:00.000Z&currency_code=ALL&include_crypto_currencies=true",
+									"raw": "{{base_url}}/v1/reporting/balances",
 									"host": [
 										"{{base_url}}"
 									],
@@ -124220,7 +124220,7 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "{{base_url}}/v1/customer/disputes?start_time=Current date and time&disputed_transaction_id=YX2Q7IUD6FF&page_size=10&next_page_token=The first page of data&dispute_state=5QUU1K&update_time_before=9007-05-01,20:17:35.49z&update_time_after=9007-05-01,20:17:35.49z",
+									"raw": "{{base_url}}/v1/customer/disputes",
 									"host": [
 										"{{base_url}}"
 									],
@@ -124392,7 +124392,7 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "{{base_url}}/v1/customer/disputes?start_time=Current date and time&disputed_transaction_id=YX2Q7IUD6FF&page_size=10&next_page_token=The first page of data&dispute_state=5QUU1K&update_time_before=9007-05-01,20:17:35.49z&update_time_after=9007-05-01,20:17:35.49z",
+									"raw": "{{base_url}}/v1/customer/disputes",
 									"host": [
 										"{{base_url}}"
 									],
@@ -124559,7 +124559,7 @@
 									}
 								],
 								"url": {
-									"raw": "{{base_url}}/v1/customer/disputes?start_time=2021-11-15T19:38:40.000Z&disputed_transaction_id=47Y07606K5635205R&page_size=10&next_page_token=The first page of data&dispute_state=RESOLVED&update_time_before=2021-11-15T19:49:10.000Z&update_time_after=2021-11-15T19:38:40.000Z",
+									"raw": "{{base_url}}/v1/customer/disputes?start_time=2021-11-15T19:38:40.000Z&disputed_transaction_id=47Y07606K5635205R&page_size=10&dispute_state=RESOLVED&update_time_before=2021-11-15T19:49:10.000Z&update_time_after=2021-11-15T19:38:40.000Z",
 									"host": [
 										"{{base_url}}"
 									],
@@ -124720,7 +124720,7 @@
 									}
 								],
 								"url": {
-									"raw": "{{base_url}}/v1/customer/disputes?start_time=2021-11-15T19:38:40.000Z&disputed_transaction_id={{capture_id}}&page_size=10&next_page_token=&dispute_state=RESOLVED&update_time_before=2021-11-15T19:49:10.000Z&update_time_after=2021-11-15T19:38:40.000Z",
+									"raw": "{{base_url}}/v1/customer/disputes?disputed_transaction_id={{capture_id}}",
 									"host": [
 										"{{base_url}}"
 									],
@@ -124886,7 +124886,7 @@
 									}
 								],
 								"url": {
-									"raw": "{{base_url}}/v1/customer/disputes?start_time=2022-03-02T03:23:10.000Z&disputed_transaction_id={{capture_id}}&page_size=10&next_page_token=&dispute_state=RESOLVED&update_time_before=2021-11-15T19:49:10.000Z&update_time_after=2021-11-15T19:38:40.000Z",
+									"raw": "{{base_url}}/v1/customer/disputes?start_time=2022-03-02T03:23:10.000Z",
 									"host": [
 										"{{base_url}}"
 									],
@@ -125052,7 +125052,7 @@
 									}
 								],
 								"url": {
-									"raw": "{{base_url}}/v1/customer/disputes?start_time=2021-11-15T19:38:40.000Z&disputed_transaction_id=52909142TS912345N&page_size=10&next_page_token=&dispute_state=RESOLVED&update_time_before=2021-11-15T19:49:10.000Z&update_time_after=2021-11-15T19:38:40.000Z",
+									"raw": "{{base_url}}/v1/customer/disputes?disputed_transaction_id=52909142TS912345N",
 									"host": [
 										"{{base_url}}"
 									],
@@ -125266,7 +125266,7 @@
 									}
 								],
 								"url": {
-									"raw": "{{base_url}}/v1/customer/disputes?start_time=2021-11-15T19:38:40.000Z&disputed_transaction_id={{capture_id}}&page_size=10&next_page_token=&dispute_state=RESOLVED&update_time_before=2021-11-15T19:49:10.000Z&update_time_after=2021-11-15T19:38:40.000Z",
+									"raw": "{{base_url}}/v1/customer/disputes",
 									"host": [
 										"{{base_url}}"
 									],
@@ -125469,7 +125469,7 @@
 									}
 								],
 								"url": {
-									"raw": "{{base_url}}/v1/customer/disputes?start_time=2021-11-15T19:38:40.000Z&disputed_transaction_id={{capture_id}}&page_size=10&next_page_token=&dispute_state=RESOLVED&update_time_before=2021-11-15T19:49:10.000Z&update_time_after=2021-11-15T19:38:40.000Z",
+									"raw": "{{base_url}}/v1/customer/disputes",
 									"host": [
 										"{{base_url}}"
 									],
@@ -125684,7 +125684,7 @@
 									}
 								],
 								"url": {
-									"raw": "{{base_url}}/v1/customer/disputes?start_time=2021-11-15T19:38:40.000Z&disputed_transaction_id={{capture_id}}&page_size=10&next_page_token=&dispute_state=RESOLVED&update_time_before=2021-11-15T19:49:10.000Z&update_time_after=2021-11-15T19:38:40.000Z",
+									"raw": "{{base_url}}/v1/customer/disputes?disputed_transaction_id={{capture_id}}",
 									"host": [
 										"{{base_url}}"
 									],
@@ -125850,7 +125850,7 @@
 									}
 								],
 								"url": {
-									"raw": "{{base_url}}/v1/customer/disputes?start_time=2021-11-15T19:38:40.000Z&disputed_transaction_id={{capture_id}}&page_size=10&next_page_token=&dispute_state=RESOLVED&update_time_before=2021-11-15T19:49:10.000Z&update_time_after=2021-11-15T19:38:40.000Z",
+									"raw": "{{base_url}}/v1/customer/disputes",
 									"host": [
 										"{{base_url}}"
 									],
@@ -126022,7 +126022,7 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "{{base_url}}/v1/customer/disputes?start_time=Current date and time&disputed_transaction_id=YX2Q7IUD6FF&page_size=10&next_page_token=The first page of data&dispute_state=5QUU1K&update_time_before=9007-05-01,20:17:35.49z&update_time_after=9007-05-01,20:17:35.49z",
+									"raw": "{{base_url}}/v1/customer/disputes",
 									"host": [
 										"{{base_url}}"
 									],
@@ -126237,7 +126237,7 @@
 									}
 								],
 								"url": {
-									"raw": "{{base_url}}/v1/customer/disputes?start_time=2021-11-15T19:38:40.000Z&disputed_transaction_id=47Y07606K5635205R&page_size=10&next_page_token=The first page of data&dispute_state=RESOLVED&update_time_before=2021-11-15T19:49:10.000Z&update_time_after=2021-11-15T19:38:40.000Z",
+									"raw": "{{base_url}}/v1/customer/disputes?start_time=2021-11-15T19:38:40.000Z&disputed_transaction_id=47Y07606K5635205R&page_size=10&dispute_state=RESOLVED&update_time_before=2021-11-15T19:49:10.000Z&update_time_after=2021-11-15T19:38:40.000Z",
 									"host": [
 										"{{base_url}}"
 									],
@@ -126398,7 +126398,7 @@
 									}
 								],
 								"url": {
-									"raw": "{{base_url}}/v1/customer/disputes?start_time=2022-03-02T03:23:10.000Z&disputed_transaction_id={{capture_id}}&page_size=10&next_page_token=&dispute_state=RESOLVED&update_time_before=2021-11-15T19:49:10.000Z&update_time_after=2021-11-15T19:38:40.000Z",
+									"raw": "{{base_url}}/v1/customer/disputes?start_time=2022-03-02T03:23:10.000Z",
 									"host": [
 										"{{base_url}}"
 									],
@@ -126564,7 +126564,7 @@
 									}
 								],
 								"url": {
-									"raw": "{{base_url}}/v1/customer/disputes?start_time=2021-11-15T19:38:40.000Z&disputed_transaction_id={{capture_id}}&page_size=10&next_page_token=&dispute_state=RESOLVED&update_time_before=2021-11-15T19:49:10.000Z&update_time_after=2021-11-15T19:38:40.000Z",
+									"raw": "{{base_url}}/v1/customer/disputes",
 									"host": [
 										"{{base_url}}"
 									],
@@ -126767,7 +126767,7 @@
 									}
 								],
 								"url": {
-									"raw": "{{base_url}}/v1/customer/disputes?start_time=2021-11-15T19:38:40.000Z&disputed_transaction_id=52909142TS912345N&page_size=10&next_page_token=&dispute_state=RESOLVED&update_time_before=2021-11-15T19:49:10.000Z&update_time_after=2021-11-15T19:38:40.000Z",
+									"raw": "{{base_url}}/v1/customer/disputes?disputed_transaction_id=52909142TS912345N",
 									"host": [
 										"{{base_url}}"
 									],
@@ -126938,7 +126938,7 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "{{base_url}}/v1/customer/disputes?start_time=Current date and time&disputed_transaction_id=YX2Q7IUD6FF&page_size=10&next_page_token=The first page of data&dispute_state=5QUU1K&update_time_before=9007-05-01,20:17:35.49z&update_time_after=9007-05-01,20:17:35.49z",
+									"raw": "{{base_url}}/v1/customer/disputes",
 									"host": [
 										"{{base_url}}"
 									],
@@ -149676,7 +149676,7 @@
 										"method": "GET",
 										"header": [],
 										"url": {
-											"raw": "{{base_url}}/v3/customer/managed-accounts?external_id={{managed_path_external_id}}&views=process_view",
+											"raw": "{{base_url}}/v3/customer/managed-accounts?external_id={{managed_path_external_id}}",
 											"host": [
 												"{{base_url}}"
 											],
@@ -149829,7 +149829,7 @@
 										"method": "GET",
 										"header": [],
 										"url": {
-											"raw": "{{base_url}}/v3/customer/managed-accounts?external_id={{managed_path_external_id}}&views=process_view",
+											"raw": "{{base_url}}/v3/customer/managed-accounts?external_id={{managed_path_external_id}}",
 											"host": [
 												"{{base_url}}"
 											],
@@ -150601,7 +150601,7 @@
 										"method": "GET",
 										"header": [],
 										"url": {
-											"raw": "{{base_url}}/v3/customer/managed-accounts?external_id={{managed_path_external_id}}&views=process_view",
+											"raw": "{{base_url}}/v3/customer/managed-accounts?external_id={{managed_path_external_id}}",
 											"host": [
 												"{{base_url}}"
 											],
@@ -150754,7 +150754,7 @@
 										"method": "GET",
 										"header": [],
 										"url": {
-											"raw": "{{base_url}}/v3/customer/managed-accounts?external_id={{managed_path_external_id}}&views=process_view",
+											"raw": "{{base_url}}/v3/customer/managed-accounts?external_id={{managed_path_external_id}}",
 											"host": [
 												"{{base_url}}"
 											],
@@ -150992,7 +150992,7 @@
 											}
 										],
 										"url": {
-											"raw": "{{base_url}}/v3/customer/managed-accounts/:id?views=process_view",
+											"raw": "{{base_url}}/v3/customer/managed-accounts/:id",
 											"host": [
 												"{{base_url}}"
 											],
@@ -151148,7 +151148,7 @@
 										"method": "GET",
 										"header": [],
 										"url": {
-											"raw": "{{base_url}}/v3/customer/managed-accounts/:id?views=process_view",
+											"raw": "{{base_url}}/v3/customer/managed-accounts/:id",
 											"host": [
 												"{{base_url}}"
 											],
@@ -151342,7 +151342,7 @@
 											}
 										],
 										"url": {
-											"raw": "{{base_url}}/v3/customer/managed-accounts/:id?views=process_view&=",
+											"raw": "{{base_url}}/v3/customer/managed-accounts/:id?views=process_view",
 											"host": [
 												"{{base_url}}"
 											],
@@ -151794,7 +151794,7 @@
 											}
 										],
 										"url": {
-											"raw": "{{base_url}}/v3/customer/managed-accounts/:id?views=process_view",
+											"raw": "{{base_url}}/v3/customer/managed-accounts/:id",
 											"host": [
 												"{{base_url}}"
 											],
@@ -152099,7 +152099,7 @@
 										"method": "GET",
 										"header": [],
 										"url": {
-											"raw": "{{base_url}}/v3/customer/managed-accounts/:id?views=process_view",
+											"raw": "{{base_url}}/v3/customer/managed-accounts/:id",
 											"host": [
 												"{{base_url}}"
 											],
@@ -152293,7 +152293,7 @@
 											}
 										],
 										"url": {
-											"raw": "{{base_url}}/v3/customer/managed-accounts/:id?views=process_view&=",
+											"raw": "{{base_url}}/v3/customer/managed-accounts/:id?views=process_view",
 											"host": [
 												"{{base_url}}"
 											],
@@ -165118,7 +165118,7 @@
 											}
 										],
 										"url": {
-											"raw": "{{base_url}}/v3/vault/payment-tokens?customer_id={{vault_customer_id}}&page_size=5&page=1&total_required=false",
+											"raw": "{{base_url}}/v3/vault/payment-tokens?customer_id={{vault_customer_id}}",
 											"host": [
 												"{{base_url}}"
 											],
@@ -165185,7 +165185,7 @@
 											}
 										],
 										"url": {
-											"raw": "{{base_url}}/v3/vault/payment-tokens?customer_id={{vault_customer_id}}&page_size=5&page=1&total_required=false",
+											"raw": "{{base_url}}/v3/vault/payment-tokens?customer_id={{vault_customer_id}}",
 											"host": [
 												"{{base_url}}"
 											],
@@ -165252,7 +165252,7 @@
 											}
 										],
 										"url": {
-											"raw": "{{base_url}}/v3/vault/payment-tokens?customer_id={{vault_customer_id}}&page_size=5&page=1&total_required=false",
+											"raw": "{{base_url}}/v3/vault/payment-tokens?customer_id={{vault_customer_id}}",
 											"host": [
 												"{{base_url}}"
 											],
@@ -165319,7 +165319,7 @@
 											}
 										],
 										"url": {
-											"raw": "{{base_url}}/v3/vault/payment-tokens?customer_id=UMzpHwoBUi&page_size=5&page=1&total_required=false",
+											"raw": "{{base_url}}/v3/vault/payment-tokens?customer_id=UMzpHwoBUi",
 											"host": [
 												"{{base_url}}"
 											],
@@ -165386,7 +165386,7 @@
 											}
 										],
 										"url": {
-											"raw": "{{base_url}}/v3/vault/payment-tokens?customer_id={{vault_customer_id}}&page_size=5&page=1&total_required=false",
+											"raw": "{{base_url}}/v3/vault/payment-tokens?customer_id={{vault_customer_id}}",
 											"host": [
 												"{{base_url}}"
 											],
@@ -165453,7 +165453,7 @@
 											}
 										],
 										"url": {
-											"raw": "{{base_url}}/v3/vault/payment-tokens?customer_id={{vault_customer_id}}&page_size=5&page=1&total_required=false",
+											"raw": "{{base_url}}/v3/vault/payment-tokens?customer_id={{vault_customer_id}}",
 											"host": [
 												"{{base_url}}"
 											],
@@ -165520,7 +165520,7 @@
 											}
 										],
 										"url": {
-											"raw": "{{base_url}}/v3/vault/payment-tokens?customer_id=UMzpHwoBUi&page_size=5&page=1&total_required=false",
+											"raw": "{{base_url}}/v3/vault/payment-tokens?customer_id=UMzpHwoBUi",
 											"host": [
 												"{{base_url}}"
 											],
@@ -165587,7 +165587,7 @@
 											}
 										],
 										"url": {
-											"raw": "{{base_url}}/v3/vault/payment-tokens?customer_id={{vault_customer_id}}&page_size=5&page=1&total_required=false",
+											"raw": "{{base_url}}/v3/vault/payment-tokens?customer_id={{vault_customer_id}}",
 											"host": [
 												"{{base_url}}"
 											],
@@ -165714,267 +165714,267 @@
 	],
 	"variable": [
 		{
-			"id": "8d5bdc45-5f9c-42a4-b3a3-a764ee4f90be",
+			"id": "498799cd-954d-425c-b346-1dae292a9b9e",
 			"key": "PLEASE NOTE -->",
 			"value": "< PayPal Public Collection comes with following default public set of credentials stored at the Collection level. \nYou may choose to override these values via environment level variables. You may bring your own credentials from PayPal Developer Dashboard there."
 		},
 		{
-			"id": "5636a2d7-4b0a-4c6d-a355-5d2027f403e9",
+			"id": "3d69a2ad-bcc7-458f-9e46-5b0836f64d73",
 			"key": "base_url",
 			"value": "https://api-m.sandbox.paypal.com"
 		},
 		{
-			"id": "16c6928f-8f57-45d1-a07f-0a34ad58d3c2",
+			"id": "59ba1b6b-21b3-483f-9e8a-5b548f882bd1",
 			"key": "client_id",
 			"value": "AUv8rrc_P-EbP2E0mpb49BV7rFt3Usr-vdUZO8VGOnjRehGHBXkSzchr37SYF2GNdQFYSp72jh5QUhzG"
 		},
 		{
-			"id": "6214af18-e69e-484a-9639-7e4344e202a7",
+			"id": "ee7a0e36-56c4-40a9-bc1d-304430781537",
 			"key": "client_secret",
 			"value": "EMnAWe06ioGtouJs7gLYT9chK9-2jJ--7MKRXpI8FesmY_2Kp-d_7aCqff7M9moEJBvuXoBO4clKtY0v"
 		},
 		{
-			"id": "bd8e6a37-8ca6-4bea-b71e-6d299f18fc3e",
+			"id": "90b54f6b-f73e-4c25-a202-8b4f642c6965",
 			"key": "managed_path_client_id",
 			"value": "ASJ7ZDtuc9fT8cDWY-EEt6xtnUCe0QiJa9Zn5Eme_rb3SfVIlbWZlu4KU87hKKFl8wxUCMRZ-HP49FTd"
 		},
 		{
-			"id": "0a9a99ba-a132-4f62-84e9-939dbf745fcd",
+			"id": "8a80384b-2d82-4e29-bd6e-c602678d64f3",
 			"key": "managed_path_client_secret",
 			"value": "EN3AlrRVld1MnsZwYK1o2RJAxSAdv9DnrwNQCo3s3HOm45NAFQtzQhc4U5HsmwBpikVfX8uXUF7Ajb3t"
 		},
 		{
-			"id": "2169dd5f-2de8-44b5-80c6-2e4f13a84533",
+			"id": "4365dadf-8608-45cb-80a4-f9dfeca208df",
 			"key": "authorization_id",
 			"value": ""
 		},
 		{
-			"id": "d55229ce-2a8b-4839-b8b0-0b99139d2a65",
+			"id": "ca75f4ef-2434-4eae-8204-517fd00ccd82",
 			"key": "billing_plan_id",
 			"value": ""
 		},
 		{
-			"id": "61a30694-f361-4edf-9278-09acd4fd73c4",
+			"id": "95a5bc4c-75f8-47d0-a93a-30dbb2fbf114",
 			"key": "capture_id",
 			"value": ""
 		},
 		{
-			"id": "8ea20fff-9aca-41da-94f5-e6d90c6320bb",
+			"id": "1898be04-ca44-49ec-b451-06757d0ae4ab",
 			"key": "dispute_id",
 			"value": ""
 		},
 		{
-			"id": "d231217b-e92b-492d-8845-c5c28f3e1926",
+			"id": "e74737e6-0f8b-4499-9c8f-a47879cc15a9",
 			"key": "event_auth_algo",
 			"value": ""
 		},
 		{
-			"id": "a68eb652-2031-4a69-96b3-72fb58385d05",
+			"id": "eec1be49-cca2-4854-93b8-d72a771ff72a",
 			"key": "event_cert_url",
 			"value": ""
 		},
 		{
-			"id": "f34fc07b-226c-451b-ab7d-4c254719384c",
+			"id": "1f5bfb24-b3f1-45d0-9f03-851e436048d9",
 			"key": "event_id",
 			"value": ""
 		},
 		{
-			"id": "d387c770-dc51-44e2-a03f-86636ddfebfb",
+			"id": "3f94c60c-b01d-44e0-90f7-a5e206d117c1",
 			"key": "event_transmission_id",
 			"value": ""
 		},
 		{
-			"id": "f4d6046d-fb12-45c9-9cbb-db39546b641a",
+			"id": "b20f7b45-2fd3-4a55-ad1e-940914772575",
 			"key": "event_transmission_sig",
 			"value": ""
 		},
 		{
-			"id": "a0c7f2ba-d17d-4486-81d3-16609260fe2f",
+			"id": "51a94bc9-83d7-49aa-940c-2e4bc4c56ca9",
 			"key": "event_transmission_time",
 			"value": ""
 		},
 		{
-			"id": "932d92d6-720f-4c1f-9e15-5c342f5d0f53",
+			"id": "a1a16957-b252-4a2b-a104-2acb7b617a04",
 			"key": "event_webhook_payload",
 			"value": ""
 		},
 		{
-			"id": "3c631474-9453-433d-8fd6-4e484f0a3e14",
+			"id": "cb87f3d7-0fb7-4691-b322-37dc6a7e5872",
 			"key": "invoice_id",
 			"value": ""
 		},
 		{
-			"id": "505b85c2-0020-4626-8302-df3564615799",
+			"id": "b317ce18-ffec-4b60-b4c9-6bbf2980e478",
 			"key": "invoice_payment_id",
 			"value": ""
 		},
 		{
-			"id": "dcd8625b-3390-417f-aca1-64a806a8d019",
+			"id": "b70d9f92-9e1c-44b3-a40e-29f4e8467454",
 			"key": "invoice_template_id",
 			"value": ""
 		},
 		{
-			"id": "2d3ab06f-838e-4095-b849-f4d6769d2db8",
+			"id": "a878b8e9-f8fb-44b8-a352-b410ec2f06ec",
 			"key": "managed_path_access_token",
 			"value": ""
 		},
 		{
-			"id": "906914df-5732-4a3d-9ce6-b1d60155a496",
+			"id": "c2a58749-4f0c-4043-b055-8cd8ef0dc441",
 			"key": "managed_path_access_token_expiry",
 			"value": ""
 		},
 		{
-			"id": "2bf8ed77-eb87-4e68-8228-4f5390b5c9c7",
+			"id": "b6be5dac-3bbc-4cbf-910c-04dd96e622e4",
 			"key": "managed_path_access_token_for",
 			"value": ""
 		},
 		{
-			"id": "e0e7116a-1b0c-496b-a87c-391251a5c205",
+			"id": "750b03f3-6f7d-49bd-9379-30d0668d2ec4",
 			"key": "managed_path_account_id",
 			"value": ""
 		},
 		{
-			"id": "48b16a40-d58e-4920-a13c-edeb74eb2b3d",
+			"id": "31e8329b-4a67-42ba-83eb-71df20853c4b",
 			"key": "managed_path_external_id",
 			"value": ""
 		},
 		{
-			"id": "6974188e-e428-4a5f-8753-2b819db25f47",
+			"id": "1934f926-fc5d-4857-8ffb-0450e7e165fb",
 			"key": "managed_path_organization",
 			"value": "us"
 		},
 		{
-			"id": "42230ca6-f6dc-43c7-ba5b-efabfcc2d5a6",
+			"id": "41913035-5ce3-4590-aeb8-35664f29f2cb",
 			"key": "managed_path_person_id",
 			"value": ""
 		},
 		{
-			"id": "690b0628-1ddd-4f09-aa42-7349a992ad18",
+			"id": "29b8b233-c390-42e9-a14c-7e09e78da4fa",
 			"key": "order_id",
 			"value": ""
 		},
 		{
-			"id": "9b9ee315-0f28-4fc4-96ca-ce844159e11e",
+			"id": "860c1df1-1b23-456e-beac-530875cbf519",
 			"key": "order_intent",
 			"value": "CAPTURE"
 		},
 		{
-			"id": "70a4112a-10ce-4925-9790-ce7727f1c5fe",
+			"id": "fa01c9dc-dc0b-436e-99e1-c92e6d255451",
 			"key": "payment_token_id",
 			"value": ""
 		},
 		{
-			"id": "1bee2a78-f9b9-44c4-b62e-b4ab73559a5f",
+			"id": "06f3de95-42f9-4666-bc01-20bd2b5a72d4",
 			"key": "payout_batch_id",
 			"value": ""
 		},
 		{
-			"id": "80f3f3c4-73e3-4a76-9bfd-7174378cda9f",
+			"id": "a76f8fc2-654d-42a6-ac2e-c8ce806019c9",
 			"key": "payout_item_id",
 			"value": ""
 		},
 		{
-			"id": "409a947d-d697-4c6f-8b65-8d09af563ea8",
+			"id": "59f7b08c-7c27-4f49-b070-1a4b8b1c610a",
 			"key": "paypal_auth_assertion",
 			"value": ""
 		},
 		{
-			"id": "bf06481f-d77d-41e7-a9b6-cc099971f32b",
+			"id": "7a9febd4-71f4-4a93-b51f-d1d27c72af5a",
 			"key": "paypal_client_metadata_Id",
 			"value": ""
 		},
 		{
-			"id": "b584f8f4-be1b-42c8-8041-5bfc9c21441b",
+			"id": "0693297e-3d0e-42f6-bd55-f3c369dd375a",
 			"key": "paypal_partner_attribution_id",
 			"value": "TEST_ATTRIBUTION_ID"
 		},
 		{
-			"id": "4dde312b-f97b-40c5-9e34-151f25c5f262",
+			"id": "aa115c7f-f7b4-4906-aa02-df7b706c033b",
 			"key": "prefer_representation_detailed",
 			"value": "return=representation"
 		},
 		{
-			"id": "e0a851c9-eff4-406c-a46c-e3c524803487",
+			"id": "ae1ec3f8-3c3e-4217-a62c-893fbb23e470",
 			"key": "prefer_representation_min",
 			"value": "return=minimal"
 		},
 		{
-			"id": "53ca69ca-4fd2-4417-854c-ca3aa1b8d8d5",
+			"id": "e6c50277-0ec0-44a8-bd17-182f589924b0",
 			"key": "product_id",
 			"value": "1645840190"
 		},
 		{
-			"id": "93d28256-92d2-40c4-87cb-bf33fff3e6af",
+			"id": "51e25963-2fd2-45f9-bb64-435697475e6c",
 			"key": "refund_id",
 			"value": ""
 		},
 		{
-			"id": "eec108fb-1755-479c-a17a-b0fcaf7b1046",
+			"id": "0f6647d3-85c4-438a-bf4b-527352d46cdf",
 			"key": "setup_token_id",
 			"value": ""
 		},
 		{
-			"id": "21f1fc2a-f663-4a7e-b460-c2836b571f06",
+			"id": "11454ca1-3343-449a-a3b0-185633356252",
 			"key": "subscription_id",
 			"value": ""
 		},
 		{
-			"id": "629b3d5e-141f-4fe6-8f2f-6d322df4ab4d",
+			"id": "64866cb7-c7cf-49e9-b595-35b586ea5303",
 			"key": "todays_date",
 			"value": ""
 		},
 		{
-			"id": "2f05a2d6-a381-4f56-819a-d0b75b89e0f1",
+			"id": "348a07c7-34d4-4b96-9a37-0f4a1871bdf5",
 			"key": "tracking_id",
 			"value": ""
 		},
 		{
-			"id": "f7f6ab16-2f3b-4a01-964c-88cf998d0ba4",
+			"id": "ecaba650-69fd-478a-8c20-a589bef6250b",
 			"key": "tracking_number",
 			"value": ""
 		},
 		{
-			"id": "35263ed7-954c-4221-a7d1-2443f3eb15df",
+			"id": "c3a4cfd5-e49f-4010-92fa-9ff76a14e5d3",
 			"key": "vault_customer_id",
 			"value": ""
 		},
 		{
-			"id": "edaee238-e8e9-4a0b-848e-cac1ed0ec7ba",
+			"id": "870ce353-0745-451d-94a6-868973a72d60",
 			"key": "web_profile_id",
 			"value": ""
 		},
 		{
-			"id": "4bf96db5-03d0-4c7c-86a7-fef203ce3046",
+			"id": "8ae3a781-0907-426d-a2ec-8f6fbd0c6118",
 			"key": "webhook_id",
 			"value": ""
 		},
 		{
-			"id": "f20054ff-b41e-4d07-8ae5-4e1d7fc01fce",
+			"id": "c4e95134-6011-4dc5-bacd-99cdee7c35ff",
 			"key": "webhook_site_token",
 			"value": ""
 		},
 		{
-			"id": "0114efc3-00af-40e5-8634-9f94eb02365e",
+			"id": "bce5663e-b894-47d6-b483-bfa7d992d5d1",
 			"key": "webhook_url",
 			"value": ""
 		},
 		{
-			"id": "b9b45b58-232c-4789-b55a-e49cb7e42600",
+			"id": "86f2de43-eb18-4457-85f5-79d7c1edc7a1",
 			"key": "paypal_postman_scripts",
 			"value": "!function(e,t){\"object\"==typeof exports&&\"object\"==typeof module?module.exports=t():\"function\"==typeof define&&define.amd?define([],t):\"object\"==typeof exports?exports.PayPalPostmanUtils=t():e.PayPalPostmanUtils=t()}(this,()=>(()=>{\"use strict\";var e={d:(t,o)=>{for(var n in o)e.o(o,n)&&!e.o(t,n)&&Object.defineProperty(t,n,{enumerable:!0,get:o[n]})},o:(e,t)=>Object.prototype.hasOwnProperty.call(e,t)},t={};function o(e,t,o,a){const s={alg:o},r={iss:e,...t},c=`${n(JSON.stringify(s))}.${n(JSON.stringify(r))}`;return`${c}.${o&&\"none\"!==o?n(CryptoJS.HmacSHA256(c,a||\"\").toString()):\"\"}`}function n(e){return Buffer.from(e).toString(\"base64\").replace(/=+$/,\"\").replace(/\\+/g,\"-\").replace(/\\//g,\"_\")}e.d(t,{default:()=>a});const a={needsNewAccessToken:function({accessTokenVar:e,accessTokenExpiryVar:t,forClientIdVar:o,clientIdVar:n}){const a=pm.collectionVariables.get(t),s=pm.collectionVariables.get(e),r=pm.variables.get(n),c=pm.collectionVariables.get(o),i=a?parseInt(a,10):0,l=!a||i<=Date.now(),p=!s||!c||c!==r;return!pm.request.url.path.join(\"/\").includes(\"/oauth2/token\")&&(l||p)},refreshAccessToken:function(e,t){const{accessTokenVar:o,accessTokenExpiryVar:n,forClientIdVar:a,clientIdVar:s,clientSecretVar:r,baseUrlVar:c}=e,i=pm.variables.get(s),l=pm.variables.get(r),p={url:pm.variables.get(c)+\"/v1/oauth2/token\",method:\"POST\",header:{\"content-type\":\"application/x-www-form-urlencoded\",authorization:\"Basic \"+Buffer.from(i+\":\"+l).toString(\"base64\")},body:{mode:\"urlencoded\",urlencoded:[{key:\"grant_type\",value:\"client_credentials\"}]}};pm.collectionVariables.unset(o),pm.collectionVariables.unset(n),pm.collectionVariables.unset(a),pm.sendRequest(p,function(e,s){if(200===s.code){const e=s.json();console.log(\"Saving the access_token\"),pm.collectionVariables.set(o,e.access_token);const t=new Date;t.setSeconds(t.getSeconds()+e.expires_in),pm.collectionVariables.set(n,t.getTime()),pm.collectionVariables.set(a,i)}else console.error(\"Failed to obtain access_token\",e,s.code,s.headers.get(\"Paypal-Debug-Id\"),s.json());t&&t()})},storeAccessToken:function(e,t){var o;const{accessTokenVar:n,accessTokenExpiryVar:a,forClientIdVar:s,clientIdVar:r}=t,c=pm.variables.get(r);pm.collectionVariables.set(n,e.access_token);const i=new Date;i.setSeconds(i.getSeconds()+e.expires_in),pm.collectionVariables.set(a,i.getTime()),pm.collectionVariables.set(s,c),(null===(o=e.client_metadata)||void 0===o?void 0:o.display_name)&&console.log(\"Logged in using App =\",e.client_metadata.display_name)},isSandbox:function(){return pm.variables.get(\"base_url\").includes(\"sandbox.paypal.com\")},getPayPalDebugId:function(){if(pm&&pm.response&&pm.response.headers)return pm.response.headers.get(\"Paypal-Debug-Id\")},base64Url:n,getJWT:o,getAuthAssertionFor:function(e,t){return o(e,{payer_id:t},\"none\")}};return t.default})());"
 		},
 		{
-			"id": "f8300278-b02a-457c-806a-5266590ffa7f",
+			"id": "89c742bd-f473-4022-8147-554d21d13888",
 			"key": "access_token",
 			"value": ""
 		},
 		{
-			"id": "04a1ee7f-6566-403c-845d-2c2a96fdc3ec",
+			"id": "9ec49d9c-7bb7-4812-9075-48d7839ab456",
 			"key": "access_token_expiry",
 			"value": ""
 		},
 		{
-			"id": "4601369d-d7aa-4dcc-b8b6-e9ce3cc48bd7",
+			"id": "475445db-9759-4f4c-94d6-7a6186c0cc99",
 			"key": "access_token_for",
 			"value": ""
 		}
