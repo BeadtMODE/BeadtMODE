@@ -1,10 +1,10 @@
 {
 	"info": {
-		"_postman_id": "a23dcb34-897a-49a9-a381-5eb3317686ee",
+		"_postman_id": "3ae05e9f-20b9-4a40-97e2-55cde16081b8",
 		"name": "tucci.in@gmail.com",
 		"description": "Buy or rent property.",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_uid": "19151314-a23dcb34-897a-49a9-a381-5eb3317686ee"
+		"_uid": "19151314-3ae05e9f-20b9-4a40-97e2-55cde16081b8"
 	},
 	"item": [
 		{
@@ -13,7 +13,7 @@
 				{
 					"listen": "test",
 					"script": {
-						"id": "1be9ea43-2bcb-4246-84da-eaeb6621146c",
+						"id": "b9a0b834-2a84-4ea3-93c9-af7217396eda",
 						"exec": [
 							"var template = `",
 							"<h2 style=\"font-family: Arial, sans-serif; color: #003087; text-align: center;\">PayPal Response Summary</h2>",
@@ -137,7 +137,7 @@
 					}
 				}
 			],
-			"id": "07894598-c51d-46c2-aad0-34584a8959aa",
+			"id": "73761b3e-2344-4d27-aa7c-ae2b391f5c71",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -171,7 +171,8 @@
 							"value": "en_US"
 						}
 					]
-				}
+				},
+				"description": "# PayPal.me Payment Link Request\n\n## Overview\nThis request accesses a PayPal.me payment link, which provides a simplified way to request or send payments through PayPal. The endpoint returns an HTML page that facilitates PayPal transactions for the specified account (CMRFF).\n\n## Query Parameters\n\n### `country.x`\n- **Purpose**: Specifies the country context for the PayPal transaction\n- **Current Value**: `US` (United States)\n- **Usage**: Determines regional settings, currency options, and compliance requirements for the payment page\n\n### `locale.x`\n- **Purpose**: Sets the language and regional format for the PayPal interface\n- **Current Value**: `en_US` (English - United States)\n- **Usage**: Controls the display language and formatting conventions (date, currency symbols, etc.) on the payment page\n\n## Expected Response\n\n- **Status Code**: 200 OK\n- **Content Type**: HTML\n- **Response Body**: A fully-rendered HTML page containing:\n  - PayPal payment interface\n  - Account information for CMRFF\n  - Payment form and options\n  - PayPal branding and security elements\n  - Embedded scripts and stylesheets for functionality\n\n## Visualization\n\nThis request includes a **post-response visualization script** that creates an interactive dashboard displaying:\n\n- **Status Code**: HTTP response status\n- **Response Time**: Request duration in milliseconds\n- **Response Size**: Payload size in kilobytes\n- **Headers Count**: Number of response headers received\n\nThe visualization uses Chart.js to render a bar chart with PayPal's brand colors (#003087, #009cde, #00b4d8, #48cae4) for an enhanced visual representation of the response metrics."
 			},
 			"response": []
 		}
@@ -183,7 +184,7 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "4e0842fb-60e5-4aec-94d8-5115af41a586",
+				"id": "00e3c185-5497-422b-b15e-d771f7db71a1",
 				"type": "text/javascript",
 				"packages": {},
 				"requests": {},
@@ -195,7 +196,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "5a1e9cac-a0e7-4344-a0d7-2fa097fad4a5",
+				"id": "3da3a5ea-9241-49aa-abf7-2334221ffab9",
 				"type": "text/javascript",
 				"packages": {},
 				"requests": {},

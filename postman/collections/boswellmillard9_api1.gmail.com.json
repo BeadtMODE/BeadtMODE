@@ -1,10 +1,10 @@
 {
 	"info": {
-		"_postman_id": "5f8b0ce8-c9f1-4bbd-9b44-90deaa909226",
+		"_postman_id": "235ad183-ccdb-418a-a523-ff53ac7cf2a6",
 		"name": "boswellmillard9_api1.gmail.com",
 		"description": "Buy or rent property.",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_uid": "19151314-5f8b0ce8-c9f1-4bbd-9b44-90deaa909226"
+		"_uid": "19151314-235ad183-ccdb-418a-a523-ff53ac7cf2a6"
 	},
 	"item": [
 		{
@@ -13,7 +13,7 @@
 				{
 					"listen": "test",
 					"script": {
-						"id": "0845fbab-a929-4276-9e4a-5167b0dbef1f",
+						"id": "d07ec0b0-247f-4507-8457-9acace52d98d",
 						"exec": [
 							"var template = `",
 							"<div style=\"font-family: 'PayPal Sans', Arial, sans-serif; padding: 20px; background: linear-gradient(135deg, #f5f7fa 0%, #e4e8ec 100%); min-height: 400px;\">",
@@ -155,7 +155,7 @@
 					}
 				}
 			],
-			"id": "cb112119-2d1b-44d1-a16b-c9415115e652",
+			"id": "eaca1fc9-c2d3-4086-8c75-9a7d8a8c60b3",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -179,7 +179,8 @@
 					"path": [
 						"kwr9"
 					]
-				}
+				},
+				"description": "# PayPal.me Link Endpoint\n\n## Overview\nThis endpoint accesses a PayPal.me personal payment link. PayPal.me is a simplified payment service that allows users to send and receive money using a personalized URL. When accessed, this link redirects to a PayPal payment page where users can send money to the account holder.\n\n## Endpoint URL Structure\n```\nhttps://paypal.me/{username}\n```\n\n- **Base URL**: `https://paypal.me/`\n- **Username**: `kwr9` - The unique PayPal.me identifier for the recipient\n- **Optional Amount**: You can append an amount to the URL (e.g., `https://paypal.me/kwr9/50`) to pre-fill the payment amount\n\n## Expected Response Behavior\nWhen making a GET request to this endpoint:\n- **Status Code**: Typically returns a `200 OK` or `302 Found` (redirect)\n- **Response Type**: HTML content that redirects to PayPal's payment interface\n- **Behavior**: The response will contain HTML markup that either displays a payment form or redirects the user to PayPal's secure payment page\n- **Authentication**: No authentication required to access the link, but the payer will need to log in to PayPal to complete the transaction\n\n## Use Cases\n1. **Direct Payment Links**: Share this URL with customers or clients who need to send you money\n2. **Invoice Payments**: Include in invoices as a quick payment option\n3. **Donation Collection**: Use for accepting donations or tips\n4. **E-commerce Integration**: Embed as a payment option on websites or in emails\n5. **Social Media Sharing**: Share on social platforms for easy payment collection\n6. **Testing Payment Flows**: Verify that PayPal.me links are accessible and properly formatted\n\n## Important Notes\n- **Public Accessibility**: PayPal.me links are publicly accessible and don't require API authentication\n- **Mobile Friendly**: These links work seamlessly on mobile devices and will open the PayPal app if installed\n- **Currency**: The default currency is based on the account holder's PayPal account settings\n- **Transaction Fees**: Standard PayPal fees apply to transactions made through PayPal.me links\n- **Customization**: The username portion (`kwr9`) is unique to each PayPal account and can be customized in PayPal settings\n- **Security**: While the link is public, actual payment processing is secured through PayPal's authentication system"
 			},
 			"response": []
 		}
@@ -191,7 +192,7 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "b7bc23d6-d13b-4a15-bf97-7d6ddbe4c4ad",
+				"id": "79409fb0-b155-44f2-8499-78b8390384aa",
 				"type": "text/javascript",
 				"packages": {},
 				"requests": {},
@@ -203,7 +204,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "be0283de-316a-45dc-a3d0-3b4cde234ee4",
+				"id": "7ae11a0c-9c62-4291-bd63-52a084acdcb1",
 				"type": "text/javascript",
 				"packages": {},
 				"requests": {},
