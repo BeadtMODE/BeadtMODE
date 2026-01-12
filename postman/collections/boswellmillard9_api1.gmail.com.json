@@ -170,7 +170,7 @@
 					"urlencoded": []
 				},
 				"url": {
-					"raw": "https://paypal.me/kwr9",
+					"raw": "https://paypal.me/kwr9?country.x=US&locale.x=en_US",
 					"protocol": "https",
 					"host": [
 						"paypal",
@@ -178,6 +178,16 @@
 					],
 					"path": [
 						"kwr9"
+					],
+					"query": [
+						{
+							"key": "country.x",
+							"value": "US"
+						},
+						{
+							"key": "locale.x",
+							"value": "en_US"
+						}
 					]
 				},
 				"description": "# PayPal.me Link Endpoint\n\n## Overview\nThis endpoint accesses a PayPal.me personal payment link. PayPal.me is a simplified payment service that allows users to send and receive money using a personalized URL. When accessed, this link redirects to a PayPal payment page where users can send money to the account holder.\n\n## Endpoint URL Structure\n```\nhttps://paypal.me/{username}\n```\n\n- **Base URL**: `https://paypal.me/`\n- **Username**: `kwr9` - The unique PayPal.me identifier for the recipient\n- **Optional Amount**: You can append an amount to the URL (e.g., `https://paypal.me/kwr9/50`) to pre-fill the payment amount\n\n## Expected Response Behavior\nWhen making a GET request to this endpoint:\n- **Status Code**: Typically returns a `200 OK` or `302 Found` (redirect)\n- **Response Type**: HTML content that redirects to PayPal's payment interface\n- **Behavior**: The response will contain HTML markup that either displays a payment form or redirects the user to PayPal's secure payment page\n- **Authentication**: No authentication required to access the link, but the payer will need to log in to PayPal to complete the transaction\n\n## Use Cases\n1. **Direct Payment Links**: Share this URL with customers or clients who need to send you money\n2. **Invoice Payments**: Include in invoices as a quick payment option\n3. **Donation Collection**: Use for accepting donations or tips\n4. **E-commerce Integration**: Embed as a payment option on websites or in emails\n5. **Social Media Sharing**: Share on social platforms for easy payment collection\n6. **Testing Payment Flows**: Verify that PayPal.me links are accessible and properly formatted\n\n## Important Notes\n- **Public Accessibility**: PayPal.me links are publicly accessible and don't require API authentication\n- **Mobile Friendly**: These links work seamlessly on mobile devices and will open the PayPal app if installed\n- **Currency**: The default currency is based on the account holder's PayPal account settings\n- **Transaction Fees**: Standard PayPal fees apply to transactions made through PayPal.me links\n- **Customization**: The username portion (`kwr9`) is unique to each PayPal account and can be customized in PayPal settings\n- **Security**: While the link is public, actual payment processing is secured through PayPal's authentication system"
