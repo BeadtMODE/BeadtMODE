@@ -152,7 +152,7 @@
 					"urlencoded": []
 				},
 				"url": {
-					"raw": "https://paypal.me/CMRFF?country.x=US&locale.x=en_US/900000",
+					"raw": "https://paypal.me/CMRFF?country.x=US&locale.x=en_US/9000000",
 					"protocol": "https",
 					"host": [
 						"paypal",
@@ -168,7 +168,7 @@
 						},
 						{
 							"key": "locale.x",
-							"value": "en_US/900000"
+							"value": "en_US/9000000"
 						}
 					]
 				},
