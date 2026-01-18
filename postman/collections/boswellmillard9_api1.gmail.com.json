@@ -1,10 +1,10 @@
 {
 	"info": {
-		"_postman_id": "235ad183-ccdb-418a-a523-ff53ac7cf2a6",
+		"_postman_id": "dd8a1116-882f-4e54-8beb-1ce479122704",
 		"name": "boswellmillard9_api1.gmail.com",
 		"description": "Buy or rent property.",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_uid": "19151314-235ad183-ccdb-418a-a523-ff53ac7cf2a6"
+		"_uid": "19151314-dd8a1116-882f-4e54-8beb-1ce479122704"
 	},
 	"item": [
 		{
@@ -13,7 +13,7 @@
 				{
 					"listen": "test",
 					"script": {
-						"id": "d07ec0b0-247f-4507-8457-9acace52d98d",
+						"id": "324fb206-7f9b-4cd5-bed2-8cc441e736da",
 						"exec": [
 							"var template = `",
 							"<div style=\"font-family: 'PayPal Sans', Arial, sans-serif; padding: 20px; background: linear-gradient(135deg, #f5f7fa 0%, #e4e8ec 100%); min-height: 400px;\">",
@@ -155,13 +155,25 @@
 					}
 				}
 			],
-			"id": "eaca1fc9-c2d3-4086-8c75-9a7d8a8c60b3",
+			"id": "dcd58f2a-5ef1-4ad7-88cc-1d40666c4b3a",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
 			"request": {
 				"auth": {
-					"type": "basic"
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "DN73JJBE74TYV4LP",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "boswellmillard9_api1.gmail.com",
+							"type": "string"
+						}
+					]
 				},
 				"method": "GET",
 				"header": [],
@@ -196,13 +208,25 @@
 		}
 	],
 	"auth": {
-		"type": "basic"
+		"type": "basic",
+		"basic": [
+			{
+				"key": "password",
+				"value": "DN73JJBE74TYV4LP",
+				"type": "string"
+			},
+			{
+				"key": "username",
+				"value": "boswellmillard9_api1.gmail.com",
+				"type": "string"
+			}
+		]
 	},
 	"event": [
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "79409fb0-b155-44f2-8499-78b8390384aa",
+				"id": "8b422ef1-5fe3-4b73-b144-cb5e5c99973c",
 				"type": "text/javascript",
 				"packages": {},
 				"requests": {},
@@ -214,7 +238,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "7ae11a0c-9c62-4291-bd63-52a084acdcb1",
+				"id": "42cb76ab-f256-4a06-851f-dd3c896f88b5",
 				"type": "text/javascript",
 				"packages": {},
 				"requests": {},
