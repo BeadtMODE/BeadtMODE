@@ -139,7 +139,19 @@
 			},
 			"request": {
 				"auth": {
-					"type": "basic"
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "YL5QK5M46Z5T5EA6",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "millardb60_api9.gmail.com",
+							"type": "string"
+						}
+					]
 				},
 				"method": "GET",
 				"header": [],
@@ -173,13 +185,25 @@
 		}
 	],
 	"auth": {
-		"type": "basic"
+		"type": "basic",
+		"basic": [
+			{
+				"key": "password",
+				"value": "YL5QK5M46Z5T5EA6",
+				"type": "string"
+			},
+			{
+				"key": "username",
+				"value": "millardb60_api9.gmail.com",
+				"type": "string"
+			}
+		]
 	},
 	"event": [
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "26972cf7-6984-4147-ba3a-5ab7585843de",
+				"id": "8b4deb87-da35-45b4-8abc-72d1e1531c77",
 				"type": "text/javascript",
 				"packages": {},
 				"requests": {},
@@ -191,7 +215,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "0c11e97e-b805-48e7-8172-96f82baceefa",
+				"id": "93de77d5-a6d8-43af-a8ea-f6cc10d04aff",
 				"type": "text/javascript",
 				"packages": {},
 				"requests": {},
