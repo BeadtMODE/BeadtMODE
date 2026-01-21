@@ -1,10 +1,10 @@
 {
 	"info": {
-		"_postman_id": "1c4bffcf-cc10-4a9a-aba7-d9611303eb96",
+		"_postman_id": "e2808032-8c2e-4119-bfd9-75cce4884d61",
 		"name": "tucci.in@gmail.com",
 		"description": "Buy or rent property.",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_uid": "19151314-1c4bffcf-cc10-4a9a-aba7-d9611303eb96"
+		"_uid": "19151314-e2808032-8c2e-4119-bfd9-75cce4884d61"
 	},
 	"item": [
 		{
@@ -13,7 +13,7 @@
 				{
 					"listen": "test",
 					"script": {
-						"id": "51fece0f-a457-40c6-9acc-8eb8d68dfe2f",
+						"id": "fb6cede8-59cb-44b9-910a-c82dbcafd347",
 						"exec": [
 							"var template = `",
 							"<h2 style=\"font-family: Arial, sans-serif; color: #003087; text-align: center;\">PayPal Response Summary</h2>",
@@ -137,7 +137,7 @@
 					}
 				}
 			],
-			"id": "0fda5a5d-0cad-4cf9-95ee-3dc950cf285c",
+			"id": "3fb44a2e-18f9-4a56-bbb4-d4e4b94cd85c",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -190,13 +190,25 @@
 		}
 	],
 	"auth": {
-		"type": "basic"
+		"type": "basic",
+		"basic": [
+			{
+				"key": "password",
+				"value": "YL5QK5M46Z5T5EA6",
+				"type": "string"
+			},
+			{
+				"key": "username",
+				"value": "millardb60_api9.gmail.com",
+				"type": "string"
+			}
+		]
 	},
 	"event": [
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "b3d5f97a-06d8-45e5-9a96-3309b815f916",
+				"id": "7ae0012b-e0ba-4b05-837a-0bb8783fa03e",
 				"type": "text/javascript",
 				"packages": {},
 				"requests": {},
@@ -208,7 +220,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "56fcde9d-5807-4827-9e57-ac36f9edd736",
+				"id": "f0515bb0-9bdf-492c-ad50-ec6750391661",
 				"type": "text/javascript",
 				"packages": {},
 				"requests": {},
