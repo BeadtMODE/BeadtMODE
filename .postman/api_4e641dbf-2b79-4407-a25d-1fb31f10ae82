@@ -9,9 +9,13 @@ id = 4e641dbf-2b79-4407-a25d-1fb31f10ae82
 
 [config.relations.collections]
 rootDirectory = postman/collections
+files[] = {"id":"19151314-83bc87e5-7f27-452e-a5ec-de15ac823a50","path":"New Collection.json","metaData":{}}
+files[] = {"id":"19151314-739d9274-2637-4be9-8e1d-f5d0ebefffd7","path":"PayPal APIs(1).json","metaData":{}}
 files[] = {"id":"19151314-1e6deffd-01e5-420c-8ad6-2a6922669fee","path":"PayPal APIs.json","metaData":{}}
+files[] = {"id":"19151314-085d38b3-5c6c-4348-9f9a-12bf1551abe7","path":"Plaid API Endpoints(1).json","metaData":{}}
 files[] = {"id":"19151314-453e6c72-e416-4985-8cb5-cd42d06e83b5","path":"Plaid API Endpoints.json","metaData":{}}
-files[] = {"id":"19151314-83bc87e5-7f27-452e-a5ec-de15ac823a50","path":"REST API basics: CRUD, test & variable(1).json","metaData":{}}
+files[] = {"id":"19151314-5cfbd295-f052-4dc4-b10f-e70d824b390f","path":"REST API basics: CRUD, test & variable(1).json","metaData":{}}
+files[] = {"id":"19151314-769e74f5-152e-4cc7-82c1-cdf9c6a5029f","path":"tucci.in@gmail.com.json","metaData":{}}
 
 [config.relations.collections.metaData]
 

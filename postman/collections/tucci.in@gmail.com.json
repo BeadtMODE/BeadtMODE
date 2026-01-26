@@ -1,10 +1,10 @@
 {
 	"info": {
-		"_postman_id": "11b8b825-6b09-4839-b410-b1c6e190c659",
+		"_postman_id": "769e74f5-152e-4cc7-82c1-cdf9c6a5029f",
 		"name": "tucci.in@gmail.com",
 		"description": "Buy or rent property.",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_uid": "19151314-11b8b825-6b09-4839-b410-b1c6e190c659"
+		"_uid": "19151314-769e74f5-152e-4cc7-82c1-cdf9c6a5029f"
 	},
 	"item": [
 		{
@@ -13,7 +13,7 @@
 				{
 					"listen": "test",
 					"script": {
-						"id": "d983cf66-507c-486d-a60a-827cd9560213",
+						"id": "ff20dcb6-6a9d-4700-83e2-9995dc8d9934",
 						"exec": [
 							"try {",
 							"    const response = await pm.sendRequest({",
@@ -34,7 +34,7 @@
 					}
 				}
 			],
-			"id": "9d97d0ea-6722-4b7c-a926-462daa79f565",
+			"id": "58422620-76b0-4fc5-96a4-3b4ba7e4d654",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -104,7 +104,7 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "fdadc9c1-4842-4677-9fb9-d60e8705daae",
+				"id": "acb11bc2-afc7-4bf6-9d2b-f02ca57b5bbd",
 				"type": "text/javascript",
 				"packages": {},
 				"requests": {},
@@ -116,7 +116,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "dcd8e23c-956a-4650-b9c8-9cffc91df23b",
+				"id": "4da7eeac-4c63-4067-81cf-3f245dd890d1",
 				"type": "text/javascript",
 				"packages": {},
 				"requests": {},
