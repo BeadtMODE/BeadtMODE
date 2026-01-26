@@ -1,10 +1,10 @@
 {
 	"info": {
-		"_postman_id": "83bc87e5-7f27-452e-a5ec-de15ac823a50",
+		"_postman_id": "5cfbd295-f052-4dc4-b10f-e70d824b390f",
 		"name": "REST API basics: CRUD, test & variable",
 		"description": "# 🚀 Get started here\n\nThis template guides you through CRUD operations (GET, POST, PUT, DELETE), variables, and tests.\n\n## 🔖 **How to use this template**\n\n#### **Step 1: Send requests**\n\nRESTful APIs allow you to perform CRUD operations using the POST, GET, PUT, and DELETE HTTP methods.\n\nThis collection contains each of these [request](https://learning.postman.com/docs/sending-requests/requests/) types. Open each request and click \"Send\" to see what happens.\n\n#### **Step 2: View responses**\n\nObserve the response tab for status code (200 OK), response time, and size.\n\n#### **Step 3: Send new Body data**\n\nUpdate or add new data in \"Body\" in the POST request. Typically, Body data is also used in PUT request.\n\n```\n{\n    \"name\": \"Add your name in the body\"\n}\n\n ```\n\n#### **Step 4: Update the variable**\n\nVariables enable you to store and reuse values in Postman. We have created a [variable](https://learning.postman.com/docs/sending-requests/variables/) called `base_url` with the sample request [https://postman-api-learner.glitch.me](https://postman-api-learner.glitch.me). Replace it with your API endpoint to customize this collection.\n\n#### **Step 5: Add tests in the \"Scripts\" tab**\n\nAdding tests to your requests can help you confirm that your API is working as expected. You can write test scripts in JavaScript and view the output in the \"Test Results\" tab.\n\n<img src=\"https://content.pstmn.io/fa30ea0a-373d-4545-a668-e7b283cca343/aW1hZ2UucG5n\" alt=\"\" height=\"1530\" width=\"2162\">\n\n## 💪 Pro tips\n\n- Use folders to group related requests and organize the collection.\n    \n- Add more [scripts](https://learning.postman.com/docs/writing-scripts/intro-to-scripts/) to verify if the API works as expected and execute workflows.\n    \n\n## 💡Related templates\n\n[API testing basics](https://go.postman.co/redirect/workspace?type=personal&collectionTemplateId=e9a37a28-055b-49cd-8c7e-97494a21eb54&sourceTemplateId=ddb19591-3097-41cf-82af-c84273e56719)  \n[API documentation](https://go.postman.co/redirect/workspace?type=personal&collectionTemplateId=e9c28f47-1253-44af-a2f3-20dce4da1f18&sourceTemplateId=ddb19591-3097-41cf-82af-c84273e56719)  \n[Authorization methods](https://go.postman.co/redirect/workspace?type=personal&collectionTemplateId=31a9a6ed-4cdf-4ced-984c-d12c9aec1c27&sourceTemplateId=ddb19591-3097-41cf-82af-c84273e56719)",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_uid": "19151314-83bc87e5-7f27-452e-a5ec-de15ac823a50"
+		"_uid": "19151314-5cfbd295-f052-4dc4-b10f-e70d824b390f"
 	},
 	"item": [
 		{
@@ -19,11 +19,11 @@
 							"    pm.response.to.have.status(200);",
 							"});"
 						],
-						"id": "cf555450-dde6-4b3e-be76-68f9ad90bceb"
+						"id": "2a6deb76-13a2-48b2-8b66-921315238bb1"
 					}
 				}
 			],
-			"id": "bba9f52f-9853-43a5-ae8f-377fc0e1435f",
+			"id": "35695309-b5ba-4d46-9e56-0582a9a424d5",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -62,11 +62,11 @@
 							"});",
 							""
 						],
-						"id": "14b2fa37-9d69-484b-a571-731fae54a55b"
+						"id": "c37aa3b1-60d4-430a-8f0d-bf71ef1c0c86"
 					}
 				}
 			],
-			"id": "c1ff4c99-66b4-4236-8197-3ad04b961492",
+			"id": "f3d3e4ae-8d3b-4094-84db-96cd50a93a9a",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -108,11 +108,11 @@
 							"});",
 							""
 						],
-						"id": "a4208123-ecd5-486f-b124-fdf154d2b850"
+						"id": "c8907902-bcab-457f-8a3c-4673e81f076f"
 					}
 				}
 			],
-			"id": "57482457-8f9f-415b-a367-b342ecdf6e65",
+			"id": "cb5257a6-b3ae-4c5e-93e2-df2f779ad395",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -160,11 +160,11 @@
 							"});",
 							""
 						],
-						"id": "3c5e15e1-bb76-4a4e-b1e1-4ee0581bd86f"
+						"id": "c0f3f857-a6f1-4668-982b-711a035f978e"
 					}
 				}
 			],
-			"id": "20f0d1a6-1592-4b60-a5bc-37995c5fc88d",
+			"id": "5ed032c3-b117-4adb-9253-74142888b215",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -208,7 +208,7 @@
 				"exec": [
 					""
 				],
-				"id": "7fa747be-bbda-4209-94bb-11449c607878"
+				"id": "b611b684-a719-440a-887c-c3e7f4a95af8"
 			}
 		},
 		{
@@ -218,7 +218,7 @@
 				"exec": [
 					""
 				],
-				"id": "09e68887-eb2d-4033-ba28-05c4561c4b9f"
+				"id": "0a2d227f-02ab-4b26-adbe-276869df2141"
 			}
 		}
 	],
