@@ -1,10 +1,10 @@
 {
 	"info": {
-		"_postman_id": "769e74f5-152e-4cc7-82c1-cdf9c6a5029f",
+		"_postman_id": "fb9c0139-593c-4006-ad08-b5117ee4a567",
 		"name": "tucci.in@gmail.com",
 		"description": "Buy or rent property.",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_uid": "19151314-769e74f5-152e-4cc7-82c1-cdf9c6a5029f"
+		"_uid": "19151314-fb9c0139-593c-4006-ad08-b5117ee4a567"
 	},
 	"item": [
 		{
@@ -13,7 +13,7 @@
 				{
 					"listen": "test",
 					"script": {
-						"id": "ff20dcb6-6a9d-4700-83e2-9995dc8d9934",
+						"id": "faf3e9a3-d6bf-406d-b2ac-4366cf66fa65",
 						"exec": [
 							"try {",
 							"    const response = await pm.sendRequest({",
@@ -34,7 +34,7 @@
 					}
 				}
 			],
-			"id": "58422620-76b0-4fc5-96a4-3b4ba7e4d654",
+			"id": "0c2a48d3-a6ee-406f-9730-89a07da5e347",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -80,7 +80,8 @@
 							"value": "en_US/9999999"
 						}
 					]
-				}
+				},
+				"description": "# PayPal.me Payment Link\n\n## Overview\n\nThis request represents a PayPal.me payment link that directs users to a PayPal payment page for the recipient `CMRFF`. PayPal.me links provide a simple way to request and receive payments by sharing a personalized URL.\n\n## URL Structure\n\nThe endpoint follows the PayPal.me URL pattern:\n\n```\nhttps://paypal.me/{recipient}?country.x={country}&locale.x={locale}\n\n ```\n\n### Parameters\n\n#### Query Parameters\n\n- **country.x**: `US`\n    \n    - Specifies the country context for the payment page\n        \n    - Set to \"US\" for United States\n        \n- **locale.x**: `en_US/9999999`\n    \n    - Defines the language and locale settings for the payment interface\n        \n    - Format: `{language}_{country}/{amount}`\n        \n    - The numeric value (9999999) may represent a suggested payment amount in the smallest currency unit\n        \n\n## Expected Behavior\n\nWhen this URL is accessed:\n\n1. The user is redirected to PayPal's payment interface\n    \n2. The payment page is localized for US users with English language settings\n    \n3. The recipient account (CMRFF) is pre-populated as the payment destination\n    \n4. The user can complete the payment through PayPal's secure checkout flow\n    \n\n## Notes\n\n- This is a GET request that initiates a browser-based payment flow\n    \n- The actual payment processing occurs through PayPal's web interface, not via API response\n    \n- Users must have a PayPal account or use PayPal's guest checkout to complete the transaction\n    \n- The link can be shared directly with payers for quick payment collection"
 			},
 			"response": []
 		}
@@ -104,7 +105,7 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "acb11bc2-afc7-4bf6-9d2b-f02ca57b5bbd",
+				"id": "9299b11e-6abc-48ab-80d3-6ec567c65c28",
 				"type": "text/javascript",
 				"packages": {},
 				"requests": {},
@@ -116,7 +117,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "4da7eeac-4c63-4067-81cf-3f245dd890d1",
+				"id": "c74b1e3f-606b-4d83-bafc-a23a1895f163",
 				"type": "text/javascript",
 				"packages": {},
 				"requests": {},
@@ -135,6 +136,18 @@
 					"pm.variables.get(\"variable_key\");"
 				]
 			}
+		}
+	],
+	"variable": [
+		{
+			"id": "6ec5f7fd-2687-47c9-95ca-7f118dc24778",
+			"key": "6ec5f7fd-2687-47c9-95ca-7f118dc24778",
+			"value": ""
+		},
+		{
+			"id": "8982c0d0-9d34-4489-843d-505c27223094",
+			"key": "variable_key",
+			"value": ""
 		}
 	]
 }
