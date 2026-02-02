@@ -9,6 +9,8 @@ id = 91195bba-850a-4e33-ae1e-bdb8e9a5d3b0
 
 [config.relations.collections]
 rootDirectory = postman/collections
+files[] = {"id":"19151314-4dfaa248-3af6-4dbd-ab8a-006dbd6bb705","path":"boswellmillard9_api1.gmail.com.json","metaData":{}}
+files[] = {"id":"19151314-45535874-89b0-4e92-bce3-5a1f9e0e2054","path":"millardb60_api9.gmail.com.json","metaData":{}}
 files[] = {"id":"19151314-d24699ef-b0f3-4661-84b8-414bf4cf6c25","path":"New Collection.json","metaData":{}}
 files[] = {"id":"19151314-00b18fc2-1a23-405e-ae32-f07ab0cf5827","path":"PayPal APIs(1).json","metaData":{}}
 files[] = {"id":"19151314-b3734458-bbd8-4d43-b1cc-7afd72bf59b7","path":"PayPal APIs.json","metaData":{}}

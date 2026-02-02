@@ -1,0 +1,123 @@
+{
+	"info": {
+		"_postman_id": "45535874-89b0-4e92-bce3-5a1f9e0e2054",
+		"name": "millardb60_api9.gmail.com",
+		"description": "Buy or rent property.",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_uid": "19151314-45535874-89b0-4e92-bce3-5a1f9e0e2054"
+	},
+	"item": [
+		{
+			"name": "access_token$production$wpw3gn5kmywp5frc$03880228e02733bef25b935db795db46",
+			"id": "306edfeb-0c33-40a9-8470-583983e441c9",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "username",
+							"value": "millardb60_api9.gmail.com",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "TFST9QSKSHXSGN28",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": []
+				},
+				"url": {
+					"raw": "https://paypal.me/CMRFF?country.x=US&locale.x=en_US/9999999",
+					"protocol": "https",
+					"host": [
+						"paypal",
+						"me"
+					],
+					"path": [
+						"CMRFF"
+					],
+					"query": [
+						{
+							"key": "country.x",
+							"value": "US"
+						},
+						{
+							"key": "locale.x",
+							"value": "en_US/9999999"
+						}
+					]
+				},
+				"description": "# PayPal.me Payment Link Endpoint\n\n## Overview\nThis endpoint accesses a PayPal.me payment link, which provides a simplified way to request payments through PayPal. When accessed, it returns an HTML page that allows users to send money to the specified PayPal account (CMRFF in this case).\n\n## Endpoint Details\n- **Method**: GET\n- **URL**: `https://paypal.me/CMRFF`\n- **Response Type**: HTML (PayPal payment page)\n\n## Query Parameters\n\n### `country.x`\n- **Type**: String\n- **Example**: `US`\n- **Description**: Specifies the country context for the PayPal payment page. This parameter helps PayPal display the appropriate regional settings, currency options, and compliance requirements for the specified country.\n\n### `locale.x`\n- **Type**: String\n- **Example**: `en_US/9999999`\n- **Description**: Defines the language and locale settings for the payment page. The format typically includes the language code and region (e.g., `en_US` for English/United States). The additional numeric suffix may be used for tracking or session identification purposes.\n\n## Expected Response\n- **Status Code**: 200 OK\n- **Content-Type**: text/html\n- **Body**: Returns a fully rendered HTML page containing the PayPal payment interface where users can:\n  - View the recipient's PayPal account information\n  - Enter a payment amount\n  - Complete the payment transaction\n  - Access PayPal branding and security features\n\n## Usage Notes\n- This is a user-facing payment link intended to be opened in a web browser\n- The HTML response includes PayPal's complete payment interface with JavaScript, CSS, and interactive elements\n- The link format `paypal.me/{username}` provides a simplified alternative to traditional PayPal payment requests\n- Query parameters allow customization of the payment experience based on user location and language preferences\n- This endpoint is typically used for sharing payment links via email, social media, or websites\n\n## Security Considerations\n- PayPal.me links are public and can be shared openly\n- Actual payment processing requires user authentication through PayPal\n- All transactions are secured through PayPal's standard security protocols"
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "basic",
+		"basic": [
+			{
+				"key": "password",
+				"value": "TFST9QSKSHXSGN28",
+				"type": "string"
+			},
+			{
+				"key": "username",
+				"value": "millardb60_api9.gmail.com",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "3a484db1-3a07-4c4a-8334-35a0533fc842",
+				"type": "text/javascript",
+				"packages": {},
+				"requests": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "f4f4776f-6564-4eea-b906-c862ed03f769",
+				"type": "text/javascript",
+				"packages": {},
+				"requests": {},
+				"exec": [
+					"try {",
+					"    const response = await pm.sendRequest({",
+					"        url: \"https://postman-echo.com/get\",",
+					"        method: \"GET\"",
+					"    });",
+					"",
+					"    console.log(response.json());",
+					"} catch (err) {",
+					"    console.error(err);",
+					"}",
+					"pm.variables.set(\"variable_key\", \"variable_value\");",
+					"pm.variables.get(\"variable_key\");"
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"id": "f9b5dbab-f336-48dc-870b-840f9b92f7bb",
+			"key": "variable_key",
+			"value": ""
+		}
+	]
+}

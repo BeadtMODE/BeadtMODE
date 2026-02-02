@@ -1,0 +1,209 @@
+{
+	"info": {
+		"_postman_id": "4dfaa248-3af6-4dbd-ab8a-006dbd6bb705",
+		"name": "boswellmillard9_api1.gmail.com",
+		"description": "Buy or rent property.",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_uid": "19151314-4dfaa248-3af6-4dbd-ab8a-006dbd6bb705"
+	},
+	"item": [
+		{
+			"name": "access_token$production$wpw3gn5kmywp5frc$03880228e02733bef25b935db795db46",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "0cc1a6f8-cc1d-41a5-852c-4aa539d40edc",
+						"exec": [
+							"var template = `",
+							"<div style=\"padding: 20px; font-family: PayPal Sans, Arial, sans-serif;\">",
+							"    <h2 style=\"color: #003087; margin-bottom: 20px;\">Response Metrics</h2>",
+							"    <canvas id=\"metricsChart\" height=\"100\"></canvas>",
+							"    <div style=\"margin-top: 20px; padding: 15px; background: #f5f7fa; border-radius: 8px;\">",
+							"        <h3 style=\"color: #003087; margin-bottom: 10px;\">Response Details</h3>",
+							"        <p><strong>Status:</strong> {{statusCode}} {{statusText}}</p>",
+							"        <p><strong>Response Size:</strong> {{responseSize}} bytes</p>",
+							"        <p><strong>Response Time:</strong> {{responseTime}} ms</p>",
+							"        <p><strong>Content Type:</strong> {{contentType}}</p>",
+							"    </div>",
+							"</div>",
+							"<script src=\"https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js\"></script>",
+							"<script>",
+							"    var ctx = document.getElementById(\"metricsChart\");",
+							"    var metricsChart = new Chart(ctx, {",
+							"        type: \"bar\",",
+							"        data: {",
+							"            labels: [\"Status Code\", \"Response Size (KB)\", \"Response Time (ms)\"],",
+							"            datasets: [{",
+							"                label: \"Response Metrics\",",
+							"                backgroundColor: [\"#003087\", \"#0070ba\", \"#00a0df\"],",
+							"                borderColor: [\"#002060\", \"#005ea6\", \"#008fc9\"],",
+							"                borderWidth: 1,",
+							"                data: []",
+							"            }]",
+							"        },",
+							"        options: {",
+							"            legend: { display: false },",
+							"            title: {",
+							"                display: true,",
+							"                text: \"PayPal Response Metrics\",",
+							"                fontSize: 16,",
+							"                fontColor: \"#003087\"",
+							"            },",
+							"            scales: {",
+							"                yAxes: [{",
+							"                    ticks: {",
+							"                        beginAtZero: true",
+							"                    },",
+							"                    scaleLabel: {",
+							"                        display: true,",
+							"                        labelString: \"Value\"",
+							"                    }",
+							"                }],",
+							"                xAxes: [{",
+							"                    scaleLabel: {",
+							"                        display: true,",
+							"                        labelString: \"Metric\"",
+							"                    }",
+							"                }]",
+							"            }",
+							"        }",
+							"    });",
+							"",
+							"    pm.getData(function (err, value) {",
+							"        metricsChart.data.datasets[0].data = [",
+							"            value.statusCode,",
+							"            value.responseSizeKB,",
+							"            value.responseTime",
+							"        ];",
+							"        metricsChart.update();",
+							"    });",
+							"</script>",
+							"`;",
+							"",
+							"function constructVisualizerPayload() {",
+							"    var responseSize = pm.response.size().body || 0;",
+							"    var responseSizeKB = Math.round(responseSize / 1024 * 100) / 100;",
+							"    var responseTime = pm.response.responseTime || 0;",
+							"    var statusCode = pm.response.code || 0;",
+							"    var statusText = pm.response.status || \"\";",
+							"    var contentType = pm.response.headers.get(\"Content-Type\") || \"Unknown\";",
+							"    ",
+							"    return {",
+							"        statusCode: statusCode,",
+							"        statusText: statusText,",
+							"        responseSize: responseSize,",
+							"        responseSizeKB: responseSizeKB,",
+							"        responseTime: responseTime,",
+							"        contentType: contentType",
+							"    };",
+							"}",
+							"",
+							"pm.visualizer.set(template, constructVisualizerPayload());"
+						],
+						"type": "text/javascript",
+						"packages": {},
+						"requests": {}
+					}
+				}
+			],
+			"id": "a3cffe13-30ba-4a8b-9b6b-aec43b08e1de",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WVX6CY455N4F45TQ",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "boswellmillard9_api1.gmail.com",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": []
+				},
+				"url": {
+					"raw": "https://paypal.me/kwr9?country.x=US&locale.x=en_US/9999999",
+					"protocol": "https",
+					"host": [
+						"paypal",
+						"me"
+					],
+					"path": [
+						"kwr9"
+					],
+					"query": [
+						{
+							"key": "country.x",
+							"value": "US"
+						},
+						{
+							"key": "locale.x",
+							"value": "en_US/9999999"
+						}
+					]
+				},
+				"description": "# PayPal.me Payment Page Request\n\n## Overview\nThis request retrieves the PayPal.me payment page for the user handle `kwr9`. PayPal.me is a simplified payment link service that allows users to receive payments by sharing a personalized URL.\n\n## Purpose and Use Case\n- **Primary Use**: Access a PayPal.me payment page to initiate a payment to the specified user\n- **Use Cases**:\n  - Testing PayPal.me page availability and response\n  - Verifying payment page rendering for different locales and countries\n  - Monitoring PayPal.me service health and response times\n  - Validating payment page content and structure\n\n## Endpoint Details\n```\nGET https://paypal.me/kwr9\n```\n\n### Query Parameters\n\n| Parameter | Value | Description |\n|-----------|-------|-------------|\n| `country.x` | `US` | Specifies the country context for the payment page. This affects currency display, payment methods available, and localized content. |\n| `locale.x` | `en_US` | Defines the language and regional formatting for the page. Format: `language_COUNTRY` (e.g., en_US for English - United States). |\n\n### Path Component\n- `/9999999` - This appears to be an amount or reference identifier appended to the PayPal.me URL\n\n## Expected Response\n\n### Success Response (200 OK)\n```\nStatus: 200 OK\nContent-Type: text/html\n```\n\n**Response Body**: Full HTML document containing the PayPal.me payment page, including:\n- PayPal branding and styling\n- Payment form interface\n- Localized content based on the `locale.x` parameter\n- Country-specific payment options based on `country.x` parameter\n- JavaScript for interactive payment functionality\n\n### Response Characteristics\n- **Size**: Varies (typically several KB of HTML, CSS, and embedded JavaScript)\n- **Content**: Fully rendered PayPal.me payment page\n- **Headers**: Standard PayPal response headers including security headers, caching directives, and content type\n\n## Notes\n- The PayPal.me service provides a simplified payment experience without requiring the sender to have a PayPal account in many cases\n- The query parameters (`country.x` and `locale.x`) help PayPal deliver a localized experience\n- This endpoint returns HTML content intended for browser rendering, not a JSON API response\n- Response times may vary based on PayPal's server load and geographic location\n- The trailing path component `/9999999` may represent a pre-filled amount or transaction reference\n\n## Related Documentation\n- [PayPal.me Official Documentation](https://www.paypal.com/paypalme/)\n- PayPal Developer Portal for API integration options"
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "basic"
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "2e43b886-310f-4872-a79c-afe901185d91",
+				"type": "text/javascript",
+				"packages": {},
+				"requests": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "a1393212-7427-45dc-9657-d206eb14f9e2",
+				"type": "text/javascript",
+				"packages": {},
+				"requests": {},
+				"exec": [
+					"try {",
+					"    const response = await pm.sendRequest({",
+					"        url: \"https://postman-echo.com/get\",",
+					"        method: \"GET\"",
+					"    });",
+					"",
+					"    console.log(response.json());",
+					"} catch (err) {",
+					"    console.error(err);",
+					"}",
+					"pm.variables.set(\"variable_key\", \"variable_value\");",
+					"pm.variables.get(\"variable_key\");"
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"id": "d21291fd-b51e-4655-8ddc-0147d5727a09",
+			"key": "variable_key",
+			"value": ""
+		}
+	]
+}
