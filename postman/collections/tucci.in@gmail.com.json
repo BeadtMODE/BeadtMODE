@@ -1,10 +1,10 @@
 {
 	"info": {
-		"_postman_id": "72105fba-98ee-455e-a842-1f74a700a685",
+		"_postman_id": "a45d7c5e-5875-4214-99cf-5ea98d0ab504",
 		"name": "tucci.in@gmail.com",
 		"description": "Buy or rent property.",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_uid": "19151314-72105fba-98ee-455e-a842-1f74a700a685"
+		"_uid": "19151314-a45d7c5e-5875-4214-99cf-5ea98d0ab504"
 	},
 	"item": [
 		{
@@ -13,7 +13,7 @@
 				{
 					"listen": "test",
 					"script": {
-						"id": "d983cf66-507c-486d-a60a-827cd9560213",
+						"id": "68ec64c0-afd8-4984-b645-47ba7a2e058d",
 						"exec": [
 							"try {",
 							"    const response = await pm.sendRequest({",
@@ -34,7 +34,7 @@
 					}
 				}
 			],
-			"id": "fa206987-7d61-492a-a30e-f0e38dc424fb",
+			"id": "448f886f-86f6-4840-b966-6e278315a238",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -44,12 +44,12 @@
 					"basic": [
 						{
 							"key": "password",
-							"value": "WVX6CY455N4F45TQ",
+							"value": "TFST9QSKSHXSGN28",
 							"type": "string"
 						},
 						{
 							"key": "username",
-							"value": "boswellmillard9_api1.gmail.com",
+							"value": "millardb60_api9.gmail.com",
 							"type": "string"
 						}
 					]
@@ -91,12 +91,12 @@
 		"basic": [
 			{
 				"key": "password",
-				"value": "WVX6CY455N4F45TQ",
+				"value": "TFST9QSKSHXSGN28",
 				"type": "string"
 			},
 			{
 				"key": "username",
-				"value": "boswellmillard9_api1.gmail.com",
+				"value": "millardb60_api9.gmail.com",
 				"type": "string"
 			}
 		]
@@ -105,7 +105,7 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "7ef48cd2-97a1-4a66-b021-68b0582292d3",
+				"id": "550be4c8-bed5-4780-a226-0e611bfdecd6",
 				"type": "text/javascript",
 				"packages": {},
 				"requests": {},
@@ -117,7 +117,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "5f7615b7-f05d-4555-9e1e-3a766c3e7670",
+				"id": "19b3d610-2590-401e-ac58-fafe96d193db",
 				"type": "text/javascript",
 				"packages": {},
 				"requests": {},
@@ -140,12 +140,12 @@
 	],
 	"variable": [
 		{
-			"id": "692f5241-8e98-45f5-ac8c-58a06d351cc3",
-			"key": "692f5241-8e98-45f5-ac8c-58a06d351cc3",
+			"id": "97a4b35a-59a3-4ee8-85da-4ad6f9555cda",
+			"key": "6ec5f7fd-2687-47c9-95ca-7f118dc24778",
 			"value": ""
 		},
 		{
-			"id": "63cc684a-a2e6-4782-a621-d23d0aeee3f9",
+			"id": "a10df603-3b5d-49d8-a88b-b0a1bfdf13a6",
 			"key": "variable_key",
 			"value": ""
 		}

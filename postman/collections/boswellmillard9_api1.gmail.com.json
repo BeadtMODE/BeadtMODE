@@ -1,10 +1,10 @@
 {
 	"info": {
-		"_postman_id": "4dfaa248-3af6-4dbd-ab8a-006dbd6bb705",
+		"_postman_id": "92961df8-5ea6-43fc-8a63-d8e8b90dfd27",
 		"name": "boswellmillard9_api1.gmail.com",
 		"description": "Buy or rent property.",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_uid": "19151314-4dfaa248-3af6-4dbd-ab8a-006dbd6bb705"
+		"_uid": "19151314-92961df8-5ea6-43fc-8a63-d8e8b90dfd27"
 	},
 	"item": [
 		{
@@ -13,7 +13,7 @@
 				{
 					"listen": "test",
 					"script": {
-						"id": "0cc1a6f8-cc1d-41a5-852c-4aa539d40edc",
+						"id": "a0c7d984-f6ef-4526-8f64-12b6741597e7",
 						"exec": [
 							"var template = `",
 							"<div style=\"padding: 20px; font-family: PayPal Sans, Arial, sans-serif;\">",
@@ -107,7 +107,7 @@
 					}
 				}
 			],
-			"id": "a3cffe13-30ba-4a8b-9b6b-aec43b08e1de",
+			"id": "90adef43-51fe-4676-9ae5-9f40fc27494b",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -160,13 +160,25 @@
 		}
 	],
 	"auth": {
-		"type": "basic"
+		"type": "basic",
+		"basic": [
+			{
+				"key": "password",
+				"value": "WVX6CY455N4F45TQ",
+				"type": "string"
+			},
+			{
+				"key": "username",
+				"value": "boswellmillard9_api1.gmail.com",
+				"type": "string"
+			}
+		]
 	},
 	"event": [
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "2e43b886-310f-4872-a79c-afe901185d91",
+				"id": "9c1c3e2d-c192-4f2d-9633-4da68b98def0",
 				"type": "text/javascript",
 				"packages": {},
 				"requests": {},
@@ -178,7 +190,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "a1393212-7427-45dc-9657-d206eb14f9e2",
+				"id": "67706dd3-8206-428b-aa78-5d0f6000f30a",
 				"type": "text/javascript",
 				"packages": {},
 				"requests": {},
@@ -201,7 +213,7 @@
 	],
 	"variable": [
 		{
-			"id": "d21291fd-b51e-4655-8ddc-0147d5727a09",
+			"id": "98622cdb-2c7b-45ef-aa0b-23b2fedcfdbd",
 			"key": "variable_key",
 			"value": ""
 		}
